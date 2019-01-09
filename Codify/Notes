@@ -1,0 +1,36 @@
+Reference count is the amount of pointers pointing to that object.
+	Once the reference count is decreased to 0 the object is deallocated in ARC (Automatic Reference Counting).
+
+On prize day, one must be signed into game center to send info to the server.
+	Method will check if signed in to game center before sending info to server.
+	Method will continously attempt to sign in until user is authenticated or quits the app.
+
+Need game center to check winner of prize.
+	Could make my own user database.
+
+
+On prize day once the first person finishes the level it will send the info to the server and wait until 9 other people have finished the round. 
+From there it will check the player with the earliest time and send back confirmation to the IP address that they have won. 
+Then it will ask the user to sign into PayPal and once they have done that they will receive the prize money. 
+
+
+Season will last for 2 months. Will do 2 seasons minimum.
+
+
+Main menu will have Play button, Settings Button, About Button
+
+
+http://letterunscramble.com/ Contact these dudes to take down site on prize day. Email: info@pcfsn.com
+
+
+https://www.dnb.com/solutions/small-business.html
+
+
+In-app purchase of 3 hints completed for $1.
+
+Will open up 4 levels per day.
+
+
+Do limited turns on words:
+Insidious
+leisure
