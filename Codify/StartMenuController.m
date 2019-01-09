@@ -75,11 +75,10 @@
 	self.playMenuView.btnPlay2.enabled = NO;
 	self.gameController.level = [Level levelWithNum:1];
 	[self.playMenuView setHidden:YES];
-	[self.gameController.hud setHidden:NO];
 		// TODO: change placeholder 1 to 'self.gameController.days'.
 	self.gameController.Random = 0;
+	[self.gameController.hud setHidden:NO];
 	[self.gameController startGame];
-	
 }
 
 
@@ -89,9 +88,9 @@
 	self.playMenuView.btnPlay2.enabled = NO;
 	self.gameController.level = [Level levelWithNum:2];
 	[self.playMenuView setHidden:YES];
-	[self.gameController.hud setHidden:NO];
 		// TODO: change placeholder 1 to 'self.gameController.days'.
 	self.gameController.Random = 1; 
+	[self.gameController.hud setHidden:NO];
 	[self.gameController startGame];
 	
 }

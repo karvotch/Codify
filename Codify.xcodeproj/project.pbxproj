@@ -29,7 +29,6 @@
 		17D08FE5214AC9AB00C04E4E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE4214AC9AB00C04E4E /* Player.m */; };
 		17D08FE8214ACBDA00C04E4E /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE7214ACBDA00C04E4E /* Match.m */; };
 		17D38B0A2141CD95009C9D1F /* MessageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D38B092141CD95009C9D1F /* MessageWriter.m */; };
-		17D3A95321E5E83A00847045 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3A95221E5E83A00847045 /* GoogleMobileAds.framework */; };
 		17E4953421823D7600AE13DE /* TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4953321823D7600AE13DE /* TimeZone.m */; };
 		17E5C7A02177D0B10044C5CC /* PlayMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E5C79F2177D0B10044C5CC /* PlayMenuView.m */; };
 		17F35A34212DF85E008F863C /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F35A33212DF85E008F863C /* GameData.m */; };
@@ -71,6 +70,7 @@
 		9CCA410516CFD9F500B16E42 /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA410116CFD9F500B16E42 /* slot@2x.png */; };
 		9CCA410D16CFDD8100B16E42 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA410B16CFDD8100B16E42 /* tile.png */; };
 		9CCA410E16CFDD8100B16E42 /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA410C16CFDD8100B16E42 /* tile@2x.png */; };
+		E513D6735FBB157CD875A40C /* libPods-Codify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75085D82B91B06EA5CEDD70E /* libPods-Codify.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,7 +112,6 @@
 		17D08FE7214ACBDA00C04E4E /* Match.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
 		17D38B082141CD95009C9D1F /* MessageWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageWriter.h; sourceTree = "<group>"; };
 		17D38B092141CD95009C9D1F /* MessageWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageWriter.m; sourceTree = "<group>"; };
-		17D3A95221E5E83A00847045 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../../../Desktop/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		17E4953221823D7600AE13DE /* TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeZone.h; sourceTree = "<group>"; };
 		17E4953321823D7600AE13DE /* TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeZone.m; sourceTree = "<group>"; };
 		17E5C79E2177D0B10044C5CC /* PlayMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMenuView.h; sourceTree = "<group>"; };
@@ -130,6 +129,8 @@
 		17FC1E0B21C2055B00968221 /* IphoneXR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneXR.jpg; sourceTree = "<group>"; };
 		17FC1E0C21C2055B00968221 /* IphoneXsMax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneXsMax.jpg; sourceTree = "<group>"; };
 		17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		37FA8786B48124344649169E /* Pods-Codify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codify/Pods-Codify.release.xcconfig"; sourceTree = "<group>"; };
+		75085D82B91B06EA5CEDD70E /* libPods-Codify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Codify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0D03BD16D2D30D00D3D45C /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		9C0D03C616D2D6C100D3D45C /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comic_Andy.ttf; sourceTree = "<group>"; };
 		9C2695D416D270A40019199F /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
@@ -165,6 +166,7 @@
 		9CCA410A16CFDAE000B16E42 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		9CCA410B16CFDD8100B16E42 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
 		9CCA410C16CFDD8100B16E42 /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tile@2x.png"; sourceTree = "<group>"; };
+		9E7497B931CCBAE4715845DF /* Pods-Codify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codify/Pods-Codify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +174,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D3A95321E5E83A00847045 /* GoogleMobileAds.framework in Frameworks */,
 				9C2695E616D27B980019199F /* QuartzCore.framework in Frameworks */,
 				9C2695DC16D2721C0019199F /* AudioToolbox.framework in Frameworks */,
 				175F7232216BF0E700834814 /* GameKit.framework in Frameworks */,
@@ -180,12 +181,22 @@
 				9CCA40A116CFD85A00B16E42 /* UIKit.framework in Frameworks */,
 				9CCA40A316CFD85A00B16E42 /* Foundation.framework in Frameworks */,
 				9CCA40A516CFD85A00B16E42 /* CoreGraphics.framework in Frameworks */,
+				E513D6735FBB157CD875A40C /* libPods-Codify.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67EE421E1DFBFADBB3BC8C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7497B931CCBAE4715845DF /* Pods-Codify.debug.xcconfig */,
+				37FA8786B48124344649169E /* Pods-Codify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C0D03C516D2D6B900D3D45C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +324,7 @@
 				9CA374C916D5825500B075C1 /* credits.txt */,
 				9CCA409F16CFD85A00B16E42 /* Frameworks */,
 				9CCA409E16CFD85A00B16E42 /* Products */,
+				67EE421E1DFBFADBB3BC8C3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -327,7 +339,6 @@
 		9CCA409F16CFD85A00B16E42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				17D3A95221E5E83A00847045 /* GoogleMobileAds.framework */,
 				175F7231216BF0E700834814 /* GameKit.framework */,
 				9C2695E516D27B980019199F /* QuartzCore.framework */,
 				9C2695DA16D272130019199F /* AVFoundation.framework */,
@@ -336,6 +347,7 @@
 				9CCA40A016CFD85A00B16E42 /* UIKit.framework */,
 				9CCA40A216CFD85A00B16E42 /* Foundation.framework */,
 				9CCA40A416CFD85A00B16E42 /* CoreGraphics.framework */,
+				75085D82B91B06EA5CEDD70E /* libPods-Codify.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,6 +414,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CCA40C016CFD85A00B16E42 /* Build configuration list for PBXNativeTarget "Codify" */;
 			buildPhases = (
+				1E2A30FE3D0B5AD2A0409787 /* [CP] Check Pods Manifest.lock */,
 				9CCA409916CFD85A00B16E42 /* Sources */,
 				9CCA409A16CFD85A00B16E42 /* Frameworks */,
 				9CCA409B16CFD85A00B16E42 /* Resources */,
@@ -495,6 +508,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E2A30FE3D0B5AD2A0409787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CCA409916CFD85A00B16E42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -576,6 +614,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -625,6 +664,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -643,6 +683,7 @@
 		};
 		9CCA40C116CFD85A00B16E42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7497B931CCBAE4715845DF /* Pods-Codify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -650,7 +691,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T27ZD94S9;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Codify/Codify-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -682,6 +722,7 @@
 		};
 		9CCA40C216CFD85A00B16E42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FA8786B48124344649169E /* Pods-Codify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -689,7 +730,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T27ZD94S9;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Codify/Codify-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";

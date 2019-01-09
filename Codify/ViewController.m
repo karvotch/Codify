@@ -15,6 +15,7 @@
 #import "StartMenuController.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import <UIKit/UIKit.h>
+#import <sys/utsname.h>
 
 @interface ViewController ()
 	@property (strong, nonatomic) StartMenuController* startMenuController;
@@ -62,6 +63,8 @@
 	[self.view addSubview: gameLayer];
 	self.startMenuController.gameController.gameView = gameLayer;
 	
+	NSString *deviceString = [self deviceName];
+	NSLog(@"%@", deviceString);
 		//Add one layer for all hud and controls.
 	HUDView* hudView = [HUDView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
 	[hudView setHidden:YES];
@@ -112,6 +115,16 @@
 		self.startMenuController.gameController = [[GameController alloc] init];
 	}
 	return self;
+}
+
+
+-(NSString*)deviceName
+{
+	struct utsname systemInfo;
+	uname(&systemInfo);
+	
+	return [NSString stringWithCString:systemInfo.machine
+							  encoding:NSUTF8StringEncoding];
 }
 
 

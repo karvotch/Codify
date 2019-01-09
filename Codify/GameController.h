@@ -35,7 +35,7 @@ typedef void (^CallbackBlock)(void);
 @property (assign, nonatomic) NSInteger days;
 @property(nonatomic, strong) GADBannerView *bannerView;
 @property(nonatomic, strong) GADInterstitial *interstitial;
-@property(nonatomic, assign)bool *Random;
+@property(nonatomic, assign)bool Random;
 
 	//Display a new anagram on the screen.
 -(void)dealRandomAnagramForIpad;
