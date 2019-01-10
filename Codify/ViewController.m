@@ -16,6 +16,7 @@
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import <UIKit/UIKit.h>
 #import <sys/utsname.h>
+#import "stdint.h"
 
 @interface ViewController ()
 	@property (strong, nonatomic) StartMenuController* startMenuController;
@@ -64,9 +65,18 @@
 	self.startMenuController.gameController.gameView = gameLayer;
 	
 	NSString *deviceString = [self deviceName];
-	NSLog(@"%@", deviceString);
-		//Add one layer for all hud and controls.
-	HUDView* hudView = [HUDView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+	NSString* deviceModel = [deviceString substringWithRange:NSMakeRange(0, 4)];
+	uint8_t device = 0;
+	if([deviceString  isEqual: @"iPhome10,3"] || [deviceString  isEqual: @"iPhome10,6"] || [deviceString  isEqual: @"iPhome11,2"] || [deviceString  isEqual: @"iPhome11,4"] || [deviceString  isEqual: @"iPhome11,6"] || [deviceString  isEqual: @"iPhome11,8"])
+	{
+		device = 1;
+	}
+	else if([deviceModel  isEqual: @"iPad"])
+	{
+		device = 1 << 1;
+	}
+//		Add one layer for all hud and controls.
+	HUDView* hudView = [HUDView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight) deviceType:device];
 	[hudView setHidden:YES];
 	[self.view addSubview:hudView];
 	

@@ -9,13 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "StopwatchView.h"
 #import "CounterLabelView.h"
+#import "stdint.h"
 
 @interface HUDView : UIView
 
 @property (strong, nonatomic) StopwatchView* stopwatch;
 @property (strong, nonatomic) CounterLabelView* gamePoints;
 @property (strong, nonatomic) UIButton* btnHelp;
+@property (assign, nonatomic) uint8_t device;
+@property (assign, nonatomic) uint8_t iPhoneX;
+@property (assign, nonatomic) uint8_t iPadPro;
 
-+(instancetype)viewWithRect:(CGRect)r;
++(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)device;
 
 @end

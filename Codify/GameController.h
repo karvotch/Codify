@@ -38,7 +38,6 @@ typedef void (^CallbackBlock)(void);
 @property(nonatomic, assign)bool Random;
 
 	//Display a new anagram on the screen.
--(void)dealRandomAnagramForIpad;
 -(void)dealRandomAnagramForIphone;
 -(void)checkLevel:(NSInteger)days;
 -(void)startGame;

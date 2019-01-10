@@ -11,7 +11,18 @@
 
 @implementation HUDView
 
-+(instancetype)viewWithRect:(CGRect)r
+
+-(instancetype)init
+{
+	self = [super init];
+	
+	_iPhoneX = 1;
+	_iPadPro = 1 << 1;
+	return self;
+}
+
+
++(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)device
 {
 		//Create the HUD layer
 	HUDView* hud = [[HUDView alloc] initWithFrame:r];
