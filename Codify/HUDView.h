@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "StopwatchView.h"
 #import "CounterLabelView.h"
 #import "stdint.h"
@@ -19,7 +20,9 @@
 @property (assign, nonatomic) uint8_t device;
 @property (assign, nonatomic) uint8_t iPhoneX;
 @property (assign, nonatomic) uint8_t iPadPro;
+@property (assign, nonatomic) bool isLandscape;
 
 +(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)device;
+-(void)setupHUD;
 
 @end

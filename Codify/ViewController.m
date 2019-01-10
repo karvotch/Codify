@@ -55,7 +55,6 @@
 	self.startMenuController.gameController.viewController = self;
 	self.interstitial = nil;
 	
-	
 	UIView* noMoreLevelsView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
 	[self.view addSubview: noMoreLevelsView];
 	self.startMenuController.gameController.noMoreLevelsView = noMoreLevelsView;
