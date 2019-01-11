@@ -113,6 +113,11 @@
 }
 
 
+-(BOOL)shouldAutorotate {
+	return NO;
+}
+
+
 -(instancetype)initWithCoder:(NSCoder *)decoder
 {
 	self = [super initWithCoder:decoder];
