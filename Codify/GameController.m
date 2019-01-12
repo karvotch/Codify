@@ -575,7 +575,7 @@ int levelsPerDay = 3;
 
 -(void)createAd
 {
-	if (self.interstitial.isReady) 
+	if (self.interstitial.isReady)
 	{
 		[self.interstitial presentFromRootViewController:self.viewController];
 	} 
