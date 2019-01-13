@@ -113,7 +113,8 @@
 }
 
 
--(BOOL)shouldAutorotate {
+-(BOOL)shouldAutorotate 
+{
 	return NO;
 }
 
