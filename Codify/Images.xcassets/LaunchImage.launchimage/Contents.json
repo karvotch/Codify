@@ -65,6 +65,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "Board1024 copy.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -72,6 +73,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "Board1024.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -79,6 +81,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "Board2048 copy.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -86,6 +89,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
+      "filename" : "Board2048.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
