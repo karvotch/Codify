@@ -17,33 +17,35 @@
 		175B312321347E8100156400 /* StarDustView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175B312221347E8100156400 /* StarDustView.m */; };
 		175F7230216BBAD500834814 /* StartMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175F722F216BBAD500834814 /* StartMenuController.m */; };
 		175F7232216BF0E700834814 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175F7231216BF0E700834814 /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		178120CB21ED16BB00A03A24 /* Board1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CA21ED16BB00A03A24 /* Board1024.jpg */; };
+		178120CE21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */; };
+		178120CF21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */; };
+		178120D721ED196500A03A24 /* iPhoneXR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D021ED196400A03A24 /* iPhoneXR.jpg */; };
+		178120D821ED196500A03A24 /* Retina4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D121ED196400A03A24 /* Retina4.jpg */; };
+		178120D921ED196500A03A24 /* RetinaHD4.7".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D221ED196400A03A24 /* RetinaHD4.7".jpg */; };
+		178120DA21ED196500A03A24 /* 2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D321ED196400A03A24 /* 2x.jpg */; };
+		178120DB21ED196500A03A24 /* iPhoneXsMax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D421ED196400A03A24 /* iPhoneXsMax.jpg */; };
+		178120DC21ED196500A03A24 /* iPhoneX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D521ED196500A03A24 /* iPhoneX.jpg */; };
+		178120DD21ED196500A03A24 /* RetinaHD5.5".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D621ED196500A03A24 /* RetinaHD5.5".jpg */; };
 		17A769B521669BF700BB33A6 /* StartMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A769B421669BF700BB33A6 /* StartMenuView.m */; };
 		17B8306F215D650D00532E19 /* CodifyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17B8306E215D650D00532E19 /* CodifyList.plist */; };
 		17BDF93521261000007564C0 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93421261000007564C0 /* Level.m */; };
 		17BDF93821272368007564C0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93721272368007564C0 /* GameController.m */; };
 		17BDF93B21273EE5007564C0 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93A21273EE5007564C0 /* TileView.m */; };
 		17BDF93E212B4200007564C0 /* TargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93D212B4200007564C0 /* TargetView.m */; };
+		17C2B4AD21ED0C5700150174 /* Board2048LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */; };
+		17C2B4AF21ED0ED400150174 /* Board1024LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */; };
 		17C38112212CFDFB00891AE9 /* StopwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C38111212CFDFB00891AE9 /* StopwatchView.m */; };
 		17C3811B212D05BE00891AE9 /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3811A212D05BE00891AE9 /* HUDView.m */; };
 		17D08FE221498DF800C04E4E /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE121498DF800C04E4E /* MessageReader.m */; };
 		17D08FE5214AC9AB00C04E4E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE4214AC9AB00C04E4E /* Player.m */; };
 		17D08FE8214ACBDA00C04E4E /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE7214ACBDA00C04E4E /* Match.m */; };
 		17D38B0A2141CD95009C9D1F /* MessageWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D38B092141CD95009C9D1F /* MessageWriter.m */; };
-		17DFF75A21EAD815006012EB /* Board1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17DFF75921EAD815006012EB /* Board1024.jpg */; };
-		17DFF75D21EAD9CD006012EB /* Board2048 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17DFF75B21EAD9CD006012EB /* Board2048 copy.jpg */; };
-		17DFF75E21EAD9CD006012EB /* Board1024 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17DFF75C21EAD9CD006012EB /* Board1024 copy.jpg */; };
 		17E4953421823D7600AE13DE /* TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4953321823D7600AE13DE /* TimeZone.m */; };
 		17E5C7A02177D0B10044C5CC /* PlayMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E5C79F2177D0B10044C5CC /* PlayMenuView.m */; };
 		17F35A34212DF85E008F863C /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F35A33212DF85E008F863C /* GameData.m */; };
 		17F35A37212F262C008F863C /* CounterLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F35A36212F262C008F863C /* CounterLabelView.m */; };
 		17F3D89D21BF1B7700244E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F3D89C21BF1B7700244E0C /* Images.xcassets */; };
-		17FC1E0D21C2055B00968221 /* IphoneX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0621C2055B00968221 /* IphoneX.jpg */; };
-		17FC1E0E21C2055B00968221 /* Iphone2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0721C2055B00968221 /* Iphone2x.jpg */; };
-		17FC1E0F21C2055B00968221 /* IphoneRetina4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0821C2055B00968221 /* IphoneRetina4.jpg */; };
-		17FC1E1021C2055B00968221 /* Iphone8Plus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0921C2055B00968221 /* Iphone8Plus.jpg */; };
-		17FC1E1121C2055B00968221 /* Iphone8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0A21C2055B00968221 /* Iphone8.jpg */; };
-		17FC1E1221C2055B00968221 /* IphoneXR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0B21C2055B00968221 /* IphoneXR.jpg */; };
-		17FC1E1321C2055B00968221 /* IphoneXsMax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17FC1E0C21C2055B00968221 /* IphoneXsMax.jpg */; };
 		17FF9D4221BCCE640064836A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */; };
 		9C0D03BE16D2D30D00D3D45C /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C0D03BD16D2D30D00D3D45C /* win.mp3 */; };
 		9C0D03C716D2D6C100D3D45C /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0D03C616D2D6C100D3D45C /* Comic_Andy.ttf */; };
@@ -65,8 +67,6 @@
 		9CCA40B716CFD85A00B16E42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40B616CFD85A00B16E42 /* Default-568h@2x.png */; };
 		9CCA40BA16CFD85A00B16E42 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40B816CFD85A00B16E42 /* MainStoryboard_iPad.storyboard */; };
 		9CCA40BD16CFD85A00B16E42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA40BC16CFD85A00B16E42 /* ViewController.m */; };
-		9CCA40C616CFD8D100B16E42 /* board5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40C416CFD8D100B16E42 /* board5.jpg */; };
-		9CCA40C716CFD8D100B16E42 /* board6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40C516CFD8D100B16E42 /* board6.jpg */; };
 		9CCA410216CFD9F500B16E42 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40FE16CFD9F500B16E42 /* btn.png */; };
 		9CCA410316CFD9F500B16E42 /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA40FF16CFD9F500B16E42 /* btn@2x.png */; };
 		9CCA410416CFD9F500B16E42 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA410016CFD9F500B16E42 /* slot.png */; };
@@ -92,6 +92,16 @@
 		175F722E216BBAD500834814 /* StartMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartMenuController.h; sourceTree = "<group>"; };
 		175F722F216BBAD500834814 /* StartMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartMenuController.m; sourceTree = "<group>"; };
 		175F7231216BF0E700834814 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		178120CA21ED16BB00A03A24 /* Board1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board1024.jpg; sourceTree = "<group>"; };
+		178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board1024LaunchScreenPortrait.jpg; sourceTree = "<group>"; };
+		178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board2048LaunchScreenPortrait.jpg; sourceTree = "<group>"; };
+		178120D021ED196400A03A24 /* iPhoneXR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneXR.jpg; sourceTree = "<group>"; };
+		178120D121ED196400A03A24 /* Retina4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Retina4.jpg; sourceTree = "<group>"; };
+		178120D221ED196400A03A24 /* RetinaHD4.7".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetinaHD4.7\".jpg"; sourceTree = "<group>"; };
+		178120D321ED196400A03A24 /* 2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2x.jpg; sourceTree = "<group>"; };
+		178120D421ED196400A03A24 /* iPhoneXsMax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneXsMax.jpg; sourceTree = "<group>"; };
+		178120D521ED196500A03A24 /* iPhoneX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneX.jpg; sourceTree = "<group>"; };
+		178120D621ED196500A03A24 /* RetinaHD5.5".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetinaHD5.5\".jpg"; sourceTree = "<group>"; };
 		17A769B321669BF700BB33A6 /* StartMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartMenuView.h; sourceTree = "<group>"; };
 		17A769B421669BF700BB33A6 /* StartMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartMenuView.m; sourceTree = "<group>"; };
 		17B8306E215D650D00532E19 /* CodifyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CodifyList.plist; sourceTree = "<group>"; };
@@ -103,6 +113,8 @@
 		17BDF93A21273EE5007564C0 /* TileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 		17BDF93C212B4200007564C0 /* TargetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetView.h; sourceTree = "<group>"; };
 		17BDF93D212B4200007564C0 /* TargetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetView.m; sourceTree = "<group>"; };
+		17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board2048LaunchScreen.jpg; path = ../../../../Desktop/Board2048LaunchScreen.jpg; sourceTree = "<group>"; };
+		17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board1024LaunchScreen.jpg; path = ../../../../Desktop/Board1024LaunchScreen.jpg; sourceTree = "<group>"; };
 		17C38110212CFDFB00891AE9 /* StopwatchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchView.h; sourceTree = "<group>"; };
 		17C38111212CFDFB00891AE9 /* StopwatchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchView.m; sourceTree = "<group>"; };
 		17C38119212D05BE00891AE9 /* HUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDView.h; sourceTree = "<group>"; };
@@ -115,9 +127,6 @@
 		17D08FE7214ACBDA00C04E4E /* Match.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
 		17D38B082141CD95009C9D1F /* MessageWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageWriter.h; sourceTree = "<group>"; };
 		17D38B092141CD95009C9D1F /* MessageWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageWriter.m; sourceTree = "<group>"; };
-		17DFF75921EAD815006012EB /* Board1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board1024.jpg; path = ../../../../Desktop/Board1024.jpg; sourceTree = "<group>"; };
-		17DFF75B21EAD9CD006012EB /* Board2048 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Board2048 copy.jpg"; path = "../../../../Desktop/Board2048 copy.jpg"; sourceTree = "<group>"; };
-		17DFF75C21EAD9CD006012EB /* Board1024 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Board1024 copy.jpg"; path = "../../../../Desktop/Board1024 copy.jpg"; sourceTree = "<group>"; };
 		17E4953221823D7600AE13DE /* TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeZone.h; sourceTree = "<group>"; };
 		17E4953321823D7600AE13DE /* TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeZone.m; sourceTree = "<group>"; };
 		17E5C79E2177D0B10044C5CC /* PlayMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMenuView.h; sourceTree = "<group>"; };
@@ -127,13 +136,6 @@
 		17F35A35212F262C008F863C /* CounterLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterLabelView.h; sourceTree = "<group>"; };
 		17F35A36212F262C008F863C /* CounterLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterLabelView.m; sourceTree = "<group>"; };
 		17F3D89C21BF1B7700244E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		17FC1E0621C2055B00968221 /* IphoneX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneX.jpg; sourceTree = "<group>"; };
-		17FC1E0721C2055B00968221 /* Iphone2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iphone2x.jpg; sourceTree = "<group>"; };
-		17FC1E0821C2055B00968221 /* IphoneRetina4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneRetina4.jpg; sourceTree = "<group>"; };
-		17FC1E0921C2055B00968221 /* Iphone8Plus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iphone8Plus.jpg; sourceTree = "<group>"; };
-		17FC1E0A21C2055B00968221 /* Iphone8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iphone8.jpg; sourceTree = "<group>"; };
-		17FC1E0B21C2055B00968221 /* IphoneXR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneXR.jpg; sourceTree = "<group>"; };
-		17FC1E0C21C2055B00968221 /* IphoneXsMax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IphoneXsMax.jpg; sourceTree = "<group>"; };
 		17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37FA8786B48124344649169E /* Pods-Codify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codify/Pods-Codify.release.xcconfig"; sourceTree = "<group>"; };
 		75085D82B91B06EA5CEDD70E /* libPods-Codify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Codify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,8 +165,6 @@
 		9CCA40B916CFD85A00B16E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9CCA40BB16CFD85A00B16E42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CCA40BC16CFD85A00B16E42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9CCA40C416CFD8D100B16E42 /* board5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board5.jpg; sourceTree = "<group>"; };
-		9CCA40C516CFD8D100B16E42 /* board6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board6.jpg; sourceTree = "<group>"; };
 		9CCA40FE16CFD9F500B16E42 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
 		9CCA40FF16CFD9F500B16E42 /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
 		9CCA410016CFD9F500B16E42 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
@@ -221,19 +221,19 @@
 				9CCA40FF16CFD9F500B16E42 /* btn@2x.png */,
 				9CCA410016CFD9F500B16E42 /* slot.png */,
 				9CCA410116CFD9F500B16E42 /* slot@2x.png */,
-				17FC1E0721C2055B00968221 /* Iphone2x.jpg */,
-				17FC1E0A21C2055B00968221 /* Iphone8.jpg */,
-				17FC1E0921C2055B00968221 /* Iphone8Plus.jpg */,
-				17FC1E0821C2055B00968221 /* IphoneRetina4.jpg */,
-				17FC1E0621C2055B00968221 /* IphoneX.jpg */,
-				17FC1E0B21C2055B00968221 /* IphoneXR.jpg */,
-				17FC1E0C21C2055B00968221 /* IphoneXsMax.jpg */,
-				17DFF75921EAD815006012EB /* Board1024.jpg */,
-				17DFF75C21EAD9CD006012EB /* Board1024 copy.jpg */,
+				178120CA21ED16BB00A03A24 /* Board1024.jpg */,
 				1749E82D21B863F5008AC9A5 /* Board2048.jpg */,
-				17DFF75B21EAD9CD006012EB /* Board2048 copy.jpg */,
-				9CCA40C416CFD8D100B16E42 /* board5.jpg */,
-				9CCA40C516CFD8D100B16E42 /* board6.jpg */,
+				17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */,
+				17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */,
+				178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */,
+				178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */,
+				178120D321ED196400A03A24 /* 2x.jpg */,
+				178120D521ED196500A03A24 /* iPhoneX.jpg */,
+				178120D021ED196400A03A24 /* iPhoneXR.jpg */,
+				178120D421ED196400A03A24 /* iPhoneXsMax.jpg */,
+				178120D121ED196400A03A24 /* Retina4.jpg */,
+				178120D221ED196400A03A24 /* RetinaHD4.7".jpg */,
+				178120D621ED196500A03A24 /* RetinaHD5.5".jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -484,36 +484,36 @@
 				173184ED2174FDEF009CA3AC /* The_Godfather.ttf in Resources */,
 				9CCA40B316CFD85A00B16E42 /* Default.png in Resources */,
 				9CCA40B516CFD85A00B16E42 /* Default@2x.png in Resources */,
+				17C2B4AF21ED0ED400150174 /* Board1024LaunchScreen.jpg in Resources */,
 				9CCA40B716CFD85A00B16E42 /* Default-568h@2x.png in Resources */,
-				17FC1E1121C2055B00968221 /* Iphone8.jpg in Resources */,
-				17FC1E0D21C2055B00968221 /* IphoneX.jpg in Resources */,
-				17FC1E0E21C2055B00968221 /* Iphone2x.jpg in Resources */,
 				9CCA40BA16CFD85A00B16E42 /* MainStoryboard_iPad.storyboard in Resources */,
 				171E873921ADB9EC00F233CB /* CodifySecondList.plist in Resources */,
-				9CCA40C616CFD8D100B16E42 /* board5.jpg in Resources */,
+				178120D921ED196500A03A24 /* RetinaHD4.7".jpg in Resources */,
+				178120CB21ED16BB00A03A24 /* Board1024.jpg in Resources */,
+				17C2B4AD21ED0C5700150174 /* Board2048LaunchScreen.jpg in Resources */,
 				17F3D89D21BF1B7700244E0C /* Images.xcassets in Resources */,
-				9CCA40C716CFD8D100B16E42 /* board6.jpg in Resources */,
 				9CCA410216CFD9F500B16E42 /* btn.png in Resources */,
-				17DFF75E21EAD9CD006012EB /* Board1024 copy.jpg in Resources */,
-				17FC1E1221C2055B00968221 /* IphoneXR.jpg in Resources */,
+				178120DC21ED196500A03A24 /* iPhoneX.jpg in Resources */,
 				9CCA410316CFD9F500B16E42 /* btn@2x.png in Resources */,
+				178120DD21ED196500A03A24 /* RetinaHD5.5".jpg in Resources */,
 				9CCA410416CFD9F500B16E42 /* slot.png in Resources */,
 				9CCA410516CFD9F500B16E42 /* slot@2x.png in Resources */,
-				17DFF75D21EAD9CD006012EB /* Board2048 copy.jpg in Resources */,
+				178120DA21ED196500A03A24 /* 2x.jpg in Resources */,
+				178120D721ED196500A03A24 /* iPhoneXR.jpg in Resources */,
 				9CCA410D16CFDD8100B16E42 /* tile.png in Resources */,
-				17FC1E0F21C2055B00968221 /* IphoneRetina4.jpg in Resources */,
-				17DFF75A21EAD815006012EB /* Board1024.jpg in Resources */,
+				178120D821ED196500A03A24 /* Retina4.jpg in Resources */,
 				9CCA410E16CFDD8100B16E42 /* tile@2x.png in Resources */,
 				9C2695D516D270A40019199F /* ding.mp3 in Resources */,
 				9C2695E816D27CBC0019199F /* particle.png in Resources */,
 				9C2695F816D295520019199F /* wrong.m4a in Resources */,
+				178120CF21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg in Resources */,
 				1749E82F21B863F5008AC9A5 /* Board2048.jpg in Resources */,
 				9C0D03BE16D2D30D00D3D45C /* win.mp3 in Resources */,
+				178120DB21ED196500A03A24 /* iPhoneXsMax.jpg in Resources */,
 				172DD9F9213880210097349C /* Notes in Resources */,
 				9C0D03C716D2D6C100D3D45C /* Comic_Andy.ttf in Resources */,
-				17FC1E1321C2055B00968221 /* IphoneXsMax.jpg in Resources */,
+				178120CE21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg in Resources */,
 				17B8306F215D650D00532E19 /* CodifyList.plist in Resources */,
-				17FC1E1021C2055B00968221 /* Iphone8Plus.jpg in Resources */,
 				9CA374CA16D5825500B075C1 /* credits.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

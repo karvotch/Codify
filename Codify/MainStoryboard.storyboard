@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Iphone8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Qy-gs-GFn" userLabel="Board1024 copy.jpg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Board1024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Qy-gs-GFn">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Iphone8.jpg" width="750" height="1334"/>
+        <image name="Board1024.jpg" width="1024" height="768"/>
     </resources>
 </document>
