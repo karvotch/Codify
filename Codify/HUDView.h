@@ -20,6 +20,7 @@
 @property (assign, nonatomic) uint8_t device;
 @property (assign, nonatomic) uint8_t iPhoneX;
 @property (assign, nonatomic) uint8_t iPadPro;
+@property (assign, nonatomic) UIInterfaceOrientation orientation;
 @property (assign, nonatomic) bool isLandscape;
 
 +(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)device;

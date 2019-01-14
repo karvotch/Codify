@@ -28,25 +28,21 @@
 	HUDView* hud = [[HUDView alloc] initWithFrame:r];
 	hud.userInteractionEnabled = YES;
 	hud.device = deviceType;
-	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+	hud.orientation = [UIApplication sharedApplication].statusBarOrientation;
 	
-	if(orientation == 0)
+	if(hud.orientation == 0)
 	{
 		hud.isLandscape = false;
 	}
-	else if(orientation == UIInterfaceOrientationPortrait)
+	else if(hud.orientation == UIInterfaceOrientationPortrait)
 	{
 		hud.isLandscape = false;
 	}
-	else if(orientation == UIInterfaceOrientationLandscapeLeft)
+	else if(hud.orientation == UIInterfaceOrientationLandscapeLeft || hud.orientation == UIInterfaceOrientationLandscapeRight)
 	{
 		hud.isLandscape = true;
 	}
-	else if(orientation == UIInterfaceOrientationLandscapeRight)
-	{
-		hud.isLandscape = true;
-	}
-	NSLog(hud.isLandscape ? @"YES" : @"NO");
+	NSLog(hud.isLandscape ? @"Landscape: YES" : @"Landscape: NO");
 	
 	
 //	[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
