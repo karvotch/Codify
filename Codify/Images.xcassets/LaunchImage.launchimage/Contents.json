@@ -73,7 +73,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "Board2048LaunchScreen copy.jpg",
+      "filename" : "Board1024LaunchScreenLandscape.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -89,7 +89,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "Board2048LaunchScreen.jpg",
+      "filename" : "Board2048LaunchScreenLandscape.jpg",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"

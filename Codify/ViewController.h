@@ -10,7 +10,7 @@
 #import <GoogleMobileAds/GoogleMobileAds.h>
 //#import "StartMenuController.h"
 
-@interface ViewController : UIViewController <GADInterstitialDelegate>
+@interface ViewController : UIViewController
 
 //@property (strong, nonatomic) StartMenuController* startMenuController;
 

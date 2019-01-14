@@ -33,8 +33,8 @@
 		17BDF93821272368007564C0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93721272368007564C0 /* GameController.m */; };
 		17BDF93B21273EE5007564C0 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93A21273EE5007564C0 /* TileView.m */; };
 		17BDF93E212B4200007564C0 /* TargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93D212B4200007564C0 /* TargetView.m */; };
-		17C2B4AD21ED0C5700150174 /* Board2048LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */; };
-		17C2B4AF21ED0ED400150174 /* Board1024LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */; };
+		17C2B4AD21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */; };
+		17C2B4AF21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */; };
 		17C38112212CFDFB00891AE9 /* StopwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C38111212CFDFB00891AE9 /* StopwatchView.m */; };
 		17C3811B212D05BE00891AE9 /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3811A212D05BE00891AE9 /* HUDView.m */; };
 		17D08FE221498DF800C04E4E /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE121498DF800C04E4E /* MessageReader.m */; };
@@ -113,8 +113,8 @@
 		17BDF93A21273EE5007564C0 /* TileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 		17BDF93C212B4200007564C0 /* TargetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetView.h; sourceTree = "<group>"; };
 		17BDF93D212B4200007564C0 /* TargetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetView.m; sourceTree = "<group>"; };
-		17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board2048LaunchScreen.jpg; path = ../../../../Desktop/Board2048LaunchScreen.jpg; sourceTree = "<group>"; };
-		17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board1024LaunchScreen.jpg; path = ../../../../Desktop/Board1024LaunchScreen.jpg; sourceTree = "<group>"; };
+		17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board2048LaunchScreenLandscape.jpg; path = ../../../../Desktop/Board2048LaunchScreenLandscape.jpg; sourceTree = "<group>"; };
+		17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board1024LaunchScreenLandscape.jpg; path = ../../../../Desktop/Board1024LaunchScreenLandscape.jpg; sourceTree = "<group>"; };
 		17C38110212CFDFB00891AE9 /* StopwatchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchView.h; sourceTree = "<group>"; };
 		17C38111212CFDFB00891AE9 /* StopwatchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchView.m; sourceTree = "<group>"; };
 		17C38119212D05BE00891AE9 /* HUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDView.h; sourceTree = "<group>"; };
@@ -223,8 +223,8 @@
 				9CCA410116CFD9F500B16E42 /* slot@2x.png */,
 				178120CA21ED16BB00A03A24 /* Board1024.jpg */,
 				1749E82D21B863F5008AC9A5 /* Board2048.jpg */,
-				17C2B4AC21ED0C5700150174 /* Board2048LaunchScreen.jpg */,
-				17C2B4AE21ED0ED400150174 /* Board1024LaunchScreen.jpg */,
+				17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */,
+				17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */,
 				178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */,
 				178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */,
 				178120D321ED196400A03A24 /* 2x.jpg */,
@@ -484,13 +484,13 @@
 				173184ED2174FDEF009CA3AC /* The_Godfather.ttf in Resources */,
 				9CCA40B316CFD85A00B16E42 /* Default.png in Resources */,
 				9CCA40B516CFD85A00B16E42 /* Default@2x.png in Resources */,
-				17C2B4AF21ED0ED400150174 /* Board1024LaunchScreen.jpg in Resources */,
+				17C2B4AF21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg in Resources */,
 				9CCA40B716CFD85A00B16E42 /* Default-568h@2x.png in Resources */,
 				9CCA40BA16CFD85A00B16E42 /* MainStoryboard_iPad.storyboard in Resources */,
 				171E873921ADB9EC00F233CB /* CodifySecondList.plist in Resources */,
 				178120D921ED196500A03A24 /* RetinaHD4.7".jpg in Resources */,
 				178120CB21ED16BB00A03A24 /* Board1024.jpg in Resources */,
-				17C2B4AD21ED0C5700150174 /* Board2048LaunchScreen.jpg in Resources */,
+				17C2B4AD21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg in Resources */,
 				17F3D89D21BF1B7700244E0C /* Images.xcassets in Resources */,
 				9CCA410216CFD9F500B16E42 /* btn.png in Resources */,
 				178120DC21ED196500A03A24 /* iPhoneX.jpg in Resources */,
