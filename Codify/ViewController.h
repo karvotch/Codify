@@ -13,5 +13,6 @@
 @interface ViewController : UIViewController
 
 //@property (strong, nonatomic) StartMenuController* startMenuController;
+@property (assign, nonatomic) UIInterfaceOrientation orientation;
 
 @end

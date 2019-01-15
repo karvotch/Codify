@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
 	
+	self.orientation = [UIApplication sharedApplication].statusBarOrientation;
+	
 		// In this case, we instantiate the banner with desired ad size.
 	self.bannerView = [[GADBannerView alloc]
 					   initWithAdSize:kGADAdSizeBanner];
@@ -121,8 +123,8 @@
 
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
-	
+//	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+	UIInterfaceOrientation orientation = self.orientation;
 	if(orientation == 0)
 	{
 		return UIInterfaceOrientationMaskPortrait;
@@ -143,6 +145,15 @@
 	{
 		return UIInterfaceOrientationMaskPortrait; 
 	}
+}
+
+
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+		//	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+		//	UIInterfaceOrientation orientation = self.startMenuController.gameController.hud.orientation;
+	UIInterfaceOrientation orientation = self.orientation;
+	return orientation;
 }
 
 

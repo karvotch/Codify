@@ -46,6 +46,7 @@
 		17F35A34212DF85E008F863C /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F35A33212DF85E008F863C /* GameData.m */; };
 		17F35A37212F262C008F863C /* CounterLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F35A36212F262C008F863C /* CounterLabelView.m */; };
 		17F3D89D21BF1B7700244E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F3D89C21BF1B7700244E0C /* Images.xcassets */; };
+		17F9EA8921EE5338003BE021 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F9EA8821EE5338003BE021 /* Launch Screen.storyboard */; };
 		17FF9D4221BCCE640064836A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */; };
 		9C0D03BE16D2D30D00D3D45C /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C0D03BD16D2D30D00D3D45C /* win.mp3 */; };
 		9C0D03C716D2D6C100D3D45C /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C0D03C616D2D6C100D3D45C /* Comic_Andy.ttf */; };
@@ -136,6 +137,7 @@
 		17F35A35212F262C008F863C /* CounterLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterLabelView.h; sourceTree = "<group>"; };
 		17F35A36212F262C008F863C /* CounterLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterLabelView.m; sourceTree = "<group>"; };
 		17F3D89C21BF1B7700244E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17F9EA8821EE5338003BE021 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37FA8786B48124344649169E /* Pods-Codify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codify/Pods-Codify.release.xcconfig"; sourceTree = "<group>"; };
 		75085D82B91B06EA5CEDD70E /* libPods-Codify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Codify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -373,6 +375,7 @@
 				9CCA40B016CFD85A00B16E42 /* AppDelegate.m */,
 				9CCA40B816CFD85A00B16E42 /* MainStoryboard_iPad.storyboard */,
 				17FF9D4121BCCE630064836A /* MainStoryboard.storyboard */,
+				17F9EA8821EE5338003BE021 /* Launch Screen.storyboard */,
 				9CCA40BB16CFD85A00B16E42 /* ViewController.h */,
 				9CCA40BC16CFD85A00B16E42 /* ViewController.m */,
 				17F3D89C21BF1B7700244E0C /* Images.xcassets */,
@@ -499,6 +502,7 @@
 				9CCA410416CFD9F500B16E42 /* slot.png in Resources */,
 				9CCA410516CFD9F500B16E42 /* slot@2x.png in Resources */,
 				178120DA21ED196500A03A24 /* 2x.jpg in Resources */,
+				17F9EA8921EE5338003BE021 /* Launch Screen.storyboard in Resources */,
 				178120D721ED196500A03A24 /* iPhoneXR.jpg in Resources */,
 				9CCA410D16CFDD8100B16E42 /* tile.png in Resources */,
 				178120D821ED196500A03A24 /* Retina4.jpg in Resources */,
