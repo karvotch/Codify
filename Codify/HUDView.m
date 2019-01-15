@@ -22,13 +22,13 @@
 }
 
 
-+(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)deviceType
++(instancetype)viewWithRect:(CGRect)r deviceType:(uint8_t)deviceType orientation:(UIInterfaceOrientation)orientation
 {
 		//Create the HUD layer
 	HUDView* hud = [[HUDView alloc] initWithFrame:r];
 	hud.userInteractionEnabled = YES;
 	hud.device = deviceType;
-	hud.orientation = [UIApplication sharedApplication].statusBarOrientation;
+	hud.orientation = orientation;
 	
 	if(hud.orientation == 0)
 	{

@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
 	
+//	self.ignoreAppSupportedOrientations = true;
+//	self.ignoreAppSupportedOrientations
 	self.orientation = [UIApplication sharedApplication].statusBarOrientation;
 	
 		// In this case, we instantiate the banner with desired ad size.
@@ -77,7 +79,7 @@
 		device = 1 << 1;
 	}
 //		Add one layer for all hud and controls.
-	HUDView* hudView = [HUDView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight) deviceType:device];
+	HUDView* hudView = [HUDView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight) deviceType:device orientation:self.orientation];
 	[hudView setHidden:YES];
 	[self.view addSubview:hudView];
 	
@@ -123,7 +125,7 @@
 
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-//	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+	
 	UIInterfaceOrientation orientation = self.orientation;
 	if(orientation == 0)
 	{

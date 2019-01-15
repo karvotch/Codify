@@ -27,6 +27,8 @@ int _secondsLeft;
 NSTimer* _timer;
 int number = 1;
 int levelsPerDay = 3;
+int screenWidth;
+int screenHeight;
 
 -(void)startGame
 {
@@ -72,12 +74,12 @@ int levelsPerDay = 3;
 	NSLog(@"Phrase2[%i]: %@", ana2len, anagram2);
 	
 		//Calculate the tile size.
-	float tileSide = ceilf( kScreenWidth*0.9 / (float)MAX(ana1len, ana2len) ) - kTileMarginTarget;
+	float tileSide = ceilf( screenWidth*0.9 / (float)MAX(ana1len, ana2len) ) - kTileMarginTarget;
 //	float tileSide = ceilf( kScreenWidth*0.9 / (float)MAX(ana1len, ana2len) ) - kTileMarginTile;
 	
 		//Get the left margin for the first tile.
-	float xOffsetTarget = (kScreenWidth - MAX(ana1len, ana2len) * (tileSide + kTileMarginTarget)) / 2;
-	float xOffsetTile = (kScreenWidth - MAX(ana1len, ana2len) * (tileSide + kTileMarginTarget)) / 2;
+	float xOffsetTarget = (screenWidth - MAX(ana1len, ana2len) * (tileSide + kTileMarginTarget)) / 2;
+	float xOffsetTile = (screenWidth - MAX(ana1len, ana2len) * (tileSide + kTileMarginTarget)) / 2;
 	
 		//Adjust for tile center (instead of the tile's origin).
 	xOffsetTarget += tileSide/2;
@@ -94,7 +96,7 @@ int levelsPerDay = 3;
 		
 		if (![letter isEqualToString:@" "]) {
 			TargetView* target = [[TargetView alloc] initWithLetter:letter andSideLength:tileSide];
-			target.center = CGPointMake(xOffsetTarget + i*(tileSide + kTileMarginTarget), kScreenHeight/10*5 /* Was 6 */);
+			target.center = CGPointMake(xOffsetTarget + i*(tileSide + kTileMarginTarget), screenHeight/10*5 /* Was 6 */);
 			
 			target.letterOnTarget = letter2;
 			target.indexOfTile = i;
@@ -116,7 +118,7 @@ int levelsPerDay = 3;
 		if (![letter isEqualToString:@" "])
 		{
 			TileView* tile = [[TileView alloc] initWithLetter:letter andSideLength:tileSide];
-			tile.center = CGPointMake(xOffsetTile +i*(tileSide + kTileMarginTarget), kScreenHeight/10*5);	// 2.7 used to be 3.
+			tile.center = CGPointMake(xOffsetTile +i*(tileSide + kTileMarginTarget), screenHeight/10*5);	// 2.7 used to be 3.
 //			[tile randomize];
 			tile.dragDelegate = self;
 			
@@ -326,7 +328,7 @@ int levelsPerDay = 3;
 	TargetView* firstTarget = _targets[0];
 	
 	int startX = 0;
-	int endX = kScreenWidth + 300;
+	int endX = screenWidth + 300;
 	int startY = firstTarget.center.y;
 	
 	StarDustView* stars = [[StarDustView alloc] initWithFrame:CGRectMake(startX, startY, 10, 10)];
@@ -395,6 +397,17 @@ int levelsPerDay = 3;
 		self.data = [[GameData alloc] init];
 		self.audioController = [[AudioController alloc] init];
 		[self.audioController preloadAudioEffects: kAudioEffectFiles];
+		
+		if(self.hud.orientation == UIInterfaceOrientationPortrait)
+		{
+			screenWidth = kScreenWidth > kScreenHeight ? kScreenHeight : kScreenWidth;
+			screenHeight = kScreenWidth < kScreenHeight ? kScreenHeight : kScreenWidth;
+		}
+		else
+		{
+			screenWidth = kScreenWidth < kScreenHeight ? kScreenHeight : kScreenWidth;
+			screenHeight = kScreenWidth > kScreenHeight ? kScreenHeight : kScreenWidth;
+		}
 		
 		[NetworkController sharedInstance].delegate = self;
 		[self stateChanged:[NetworkController sharedInstance].state];
@@ -554,13 +567,13 @@ int levelsPerDay = 3;
 	{
 		[_hud setHidden:YES];
 //		[_noMoreLevelsView setHidden:YES];
-		UILabel* noMoreLevels1 = [[UILabel alloc] initWithFrame:CGRectMake(45, -100, kScreenWidth, kScreenHeight)];
+		UILabel* noMoreLevels1 = [[UILabel alloc] initWithFrame:CGRectMake(45, -100, screenWidth, screenHeight)];
 		noMoreLevels1.backgroundColor = [UIColor clearColor];
 		noMoreLevels1.font = kFontHUD;
 		noMoreLevels1.text = @"You have finished all";
 		[_noMoreLevelsView addSubview:noMoreLevels1];
 		
-		UILabel* noMoreLevels2 = [[UILabel alloc] initWithFrame:CGRectMake(45, -50, kScreenWidth, kScreenHeight)];
+		UILabel* noMoreLevels2 = [[UILabel alloc] initWithFrame:CGRectMake(45, -50, screenWidth, screenHeight)];
 		noMoreLevels2.backgroundColor = [UIColor clearColor];
 		noMoreLevels2.font = kFontHUD;
 		noMoreLevels2.text = @"of the levels for today.";
