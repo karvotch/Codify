@@ -36,6 +36,7 @@ typedef void (^CallbackBlock)(void);
 @property(nonatomic, strong) GADBannerView *bannerView;
 @property(nonatomic, strong) GADInterstitial *interstitial;
 @property(nonatomic, assign)bool Random;
+@property (assign, nonatomic) UIInterfaceOrientation orientation;
 
 	//Display a new anagram on the screen.
 -(void)dealRandomAnagramForIphone;

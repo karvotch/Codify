@@ -117,46 +117,46 @@
 }
 
 
--(BOOL)shouldAutorotate 
-{
-	return NO;
-}
-
-
--(UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-	
-	UIInterfaceOrientation orientation = self.orientation;
-	if(orientation == 0)
-	{
-		return UIInterfaceOrientationMaskPortrait;
-	}
-	else if(orientation == UIInterfaceOrientationPortrait)
-	{
-		return UIInterfaceOrientationMaskPortrait;
-	}
-	else if(orientation == UIInterfaceOrientationLandscapeLeft)
-	{
-		return UIInterfaceOrientationMaskLandscapeRight;
-	}
-	else if(orientation == UIInterfaceOrientationLandscapeRight)
-	{
-		return UIInterfaceOrientationMaskLandscapeRight;
-	}
-	else
-	{
-		return UIInterfaceOrientationMaskPortrait; 
-	}
-}
-
-
--(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-		//	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
-		//	UIInterfaceOrientation orientation = self.startMenuController.gameController.hud.orientation;
-	UIInterfaceOrientation orientation = self.orientation;
-	return orientation;
-}
+//-(BOOL)shouldAutorotate 
+//{
+//	return NO;
+//}
+//
+//
+//-(UIInterfaceOrientationMask)supportedInterfaceOrientations
+//{
+//	
+//	UIInterfaceOrientation orientation = self.orientation;
+//	if(orientation == 0)
+//	{
+//		return UIInterfaceOrientationMaskPortrait;
+//	}
+//	else if(orientation == UIInterfaceOrientationPortrait)
+//	{
+//		return UIInterfaceOrientationMaskPortrait;
+//	}
+//	else if(orientation == UIInterfaceOrientationLandscapeLeft)
+//	{
+//		return UIInterfaceOrientationMaskLandscapeRight;
+//	}
+//	else if(orientation == UIInterfaceOrientationLandscapeRight)
+//	{
+//		return UIInterfaceOrientationMaskLandscapeRight;
+//	}
+//	else
+//	{
+//		return UIInterfaceOrientationMaskPortrait; 
+//	}
+//}
+//
+//
+//-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+//{
+//		//	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+//		//	UIInterfaceOrientation orientation = self.startMenuController.gameController.hud.orientation;
+//	UIInterfaceOrientation orientation = self.orientation;
+//	return orientation;
+//}
 
 
 -(instancetype)initWithCoder:(NSCoder *)decoder

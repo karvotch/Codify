@@ -44,7 +44,27 @@
 
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 {
-	return UIInterfaceOrientationMaskPortrait;
+	UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+	if(orientation == 0)
+	{
+		return UIInterfaceOrientationMaskPortrait;
+	}
+	else if(orientation == UIInterfaceOrientationPortrait)
+	{
+		return UIInterfaceOrientationMaskPortrait;
+	}
+	else if(orientation == UIInterfaceOrientationLandscapeLeft)
+	{
+		return UIInterfaceOrientationMaskLandscapeRight;
+	}
+	else if(orientation == UIInterfaceOrientationLandscapeRight)
+	{
+		return UIInterfaceOrientationMaskLandscapeRight;
+	}
+	else
+	{
+		return UIInterfaceOrientationMaskPortrait; 
+	}
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
