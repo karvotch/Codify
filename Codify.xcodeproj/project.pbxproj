@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1710053B21EFA93300526082 /* Board2048LaunchScreenPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1710053A21EFA93300526082 /* Board2048LaunchScreenPortrait.jpg */; };
 		171E873921ADB9EC00F233CB /* CodifySecondList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 171E873821ADB9EC00F233CB /* CodifySecondList.plist */; };
 		172DD9F7213729D80097349C /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172DD9F6213729D80097349C /* NetworkController.m */; };
 		172DD9F9213880210097349C /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 172DD9F8213880210097349C /* Notes */; };
@@ -18,23 +19,12 @@
 		175F7230216BBAD500834814 /* StartMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175F722F216BBAD500834814 /* StartMenuController.m */; };
 		175F7232216BF0E700834814 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175F7231216BF0E700834814 /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		178120CB21ED16BB00A03A24 /* Board1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CA21ED16BB00A03A24 /* Board1024.jpg */; };
-		178120CE21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */; };
-		178120CF21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */; };
-		178120D721ED196500A03A24 /* iPhoneXR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D021ED196400A03A24 /* iPhoneXR.jpg */; };
-		178120D821ED196500A03A24 /* Retina4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D121ED196400A03A24 /* Retina4.jpg */; };
-		178120D921ED196500A03A24 /* RetinaHD4.7".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D221ED196400A03A24 /* RetinaHD4.7".jpg */; };
-		178120DA21ED196500A03A24 /* 2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D321ED196400A03A24 /* 2x.jpg */; };
-		178120DB21ED196500A03A24 /* iPhoneXsMax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D421ED196400A03A24 /* iPhoneXsMax.jpg */; };
-		178120DC21ED196500A03A24 /* iPhoneX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D521ED196500A03A24 /* iPhoneX.jpg */; };
-		178120DD21ED196500A03A24 /* RetinaHD5.5".jpg in Resources */ = {isa = PBXBuildFile; fileRef = 178120D621ED196500A03A24 /* RetinaHD5.5".jpg */; };
 		17A769B521669BF700BB33A6 /* StartMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A769B421669BF700BB33A6 /* StartMenuView.m */; };
 		17B8306F215D650D00532E19 /* CodifyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17B8306E215D650D00532E19 /* CodifyList.plist */; };
 		17BDF93521261000007564C0 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93421261000007564C0 /* Level.m */; };
 		17BDF93821272368007564C0 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93721272368007564C0 /* GameController.m */; };
 		17BDF93B21273EE5007564C0 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93A21273EE5007564C0 /* TileView.m */; };
 		17BDF93E212B4200007564C0 /* TargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF93D212B4200007564C0 /* TargetView.m */; };
-		17C2B4AD21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */; };
-		17C2B4AF21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */; };
 		17C38112212CFDFB00891AE9 /* StopwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C38111212CFDFB00891AE9 /* StopwatchView.m */; };
 		17C3811B212D05BE00891AE9 /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C3811A212D05BE00891AE9 /* HUDView.m */; };
 		17D08FE221498DF800C04E4E /* MessageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D08FE121498DF800C04E4E /* MessageReader.m */; };
@@ -78,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1710053A21EFA93300526082 /* Board2048LaunchScreenPortrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board2048LaunchScreenPortrait.jpg; sourceTree = "<group>"; };
 		171E873821ADB9EC00F233CB /* CodifySecondList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CodifySecondList.plist; sourceTree = "<group>"; };
 		172DD9F5213729D80097349C /* NetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		172DD9F6213729D80097349C /* NetworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
@@ -94,15 +85,6 @@
 		175F722F216BBAD500834814 /* StartMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartMenuController.m; sourceTree = "<group>"; };
 		175F7231216BF0E700834814 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		178120CA21ED16BB00A03A24 /* Board1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board1024.jpg; sourceTree = "<group>"; };
-		178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board1024LaunchScreenPortrait.jpg; sourceTree = "<group>"; };
-		178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board2048LaunchScreenPortrait.jpg; sourceTree = "<group>"; };
-		178120D021ED196400A03A24 /* iPhoneXR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneXR.jpg; sourceTree = "<group>"; };
-		178120D121ED196400A03A24 /* Retina4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Retina4.jpg; sourceTree = "<group>"; };
-		178120D221ED196400A03A24 /* RetinaHD4.7".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetinaHD4.7\".jpg"; sourceTree = "<group>"; };
-		178120D321ED196400A03A24 /* 2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2x.jpg; sourceTree = "<group>"; };
-		178120D421ED196400A03A24 /* iPhoneXsMax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneXsMax.jpg; sourceTree = "<group>"; };
-		178120D521ED196500A03A24 /* iPhoneX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhoneX.jpg; sourceTree = "<group>"; };
-		178120D621ED196500A03A24 /* RetinaHD5.5".jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RetinaHD5.5\".jpg"; sourceTree = "<group>"; };
 		17A769B321669BF700BB33A6 /* StartMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartMenuView.h; sourceTree = "<group>"; };
 		17A769B421669BF700BB33A6 /* StartMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartMenuView.m; sourceTree = "<group>"; };
 		17B8306E215D650D00532E19 /* CodifyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CodifyList.plist; sourceTree = "<group>"; };
@@ -114,8 +96,6 @@
 		17BDF93A21273EE5007564C0 /* TileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 		17BDF93C212B4200007564C0 /* TargetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetView.h; sourceTree = "<group>"; };
 		17BDF93D212B4200007564C0 /* TargetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetView.m; sourceTree = "<group>"; };
-		17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board2048LaunchScreenLandscape.jpg; path = ../../../../Desktop/Board2048LaunchScreenLandscape.jpg; sourceTree = "<group>"; };
-		17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Board1024LaunchScreenLandscape.jpg; path = ../../../../Desktop/Board1024LaunchScreenLandscape.jpg; sourceTree = "<group>"; };
 		17C38110212CFDFB00891AE9 /* StopwatchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopwatchView.h; sourceTree = "<group>"; };
 		17C38111212CFDFB00891AE9 /* StopwatchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchView.m; sourceTree = "<group>"; };
 		17C38119212D05BE00891AE9 /* HUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDView.h; sourceTree = "<group>"; };
@@ -225,17 +205,7 @@
 				9CCA410116CFD9F500B16E42 /* slot@2x.png */,
 				178120CA21ED16BB00A03A24 /* Board1024.jpg */,
 				1749E82D21B863F5008AC9A5 /* Board2048.jpg */,
-				17C2B4AC21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg */,
-				17C2B4AE21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg */,
-				178120CC21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg */,
-				178120CD21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg */,
-				178120D321ED196400A03A24 /* 2x.jpg */,
-				178120D521ED196500A03A24 /* iPhoneX.jpg */,
-				178120D021ED196400A03A24 /* iPhoneXR.jpg */,
-				178120D421ED196400A03A24 /* iPhoneXsMax.jpg */,
-				178120D121ED196400A03A24 /* Retina4.jpg */,
-				178120D221ED196400A03A24 /* RetinaHD4.7".jpg */,
-				178120D621ED196500A03A24 /* RetinaHD5.5".jpg */,
+				1710053A21EFA93300526082 /* Board2048LaunchScreenPortrait.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -487,36 +457,26 @@
 				173184ED2174FDEF009CA3AC /* The_Godfather.ttf in Resources */,
 				9CCA40B316CFD85A00B16E42 /* Default.png in Resources */,
 				9CCA40B516CFD85A00B16E42 /* Default@2x.png in Resources */,
-				17C2B4AF21ED0ED400150174 /* Board1024LaunchScreenLandscape.jpg in Resources */,
 				9CCA40B716CFD85A00B16E42 /* Default-568h@2x.png in Resources */,
 				9CCA40BA16CFD85A00B16E42 /* MainStoryboard_iPad.storyboard in Resources */,
 				171E873921ADB9EC00F233CB /* CodifySecondList.plist in Resources */,
-				178120D921ED196500A03A24 /* RetinaHD4.7".jpg in Resources */,
 				178120CB21ED16BB00A03A24 /* Board1024.jpg in Resources */,
-				17C2B4AD21ED0C5700150174 /* Board2048LaunchScreenLandscape.jpg in Resources */,
+				1710053B21EFA93300526082 /* Board2048LaunchScreenPortrait.jpg in Resources */,
 				17F3D89D21BF1B7700244E0C /* Images.xcassets in Resources */,
 				9CCA410216CFD9F500B16E42 /* btn.png in Resources */,
-				178120DC21ED196500A03A24 /* iPhoneX.jpg in Resources */,
 				9CCA410316CFD9F500B16E42 /* btn@2x.png in Resources */,
-				178120DD21ED196500A03A24 /* RetinaHD5.5".jpg in Resources */,
 				9CCA410416CFD9F500B16E42 /* slot.png in Resources */,
 				9CCA410516CFD9F500B16E42 /* slot@2x.png in Resources */,
-				178120DA21ED196500A03A24 /* 2x.jpg in Resources */,
 				17F9EA8921EE5338003BE021 /* Launch Screen.storyboard in Resources */,
-				178120D721ED196500A03A24 /* iPhoneXR.jpg in Resources */,
 				9CCA410D16CFDD8100B16E42 /* tile.png in Resources */,
-				178120D821ED196500A03A24 /* Retina4.jpg in Resources */,
 				9CCA410E16CFDD8100B16E42 /* tile@2x.png in Resources */,
 				9C2695D516D270A40019199F /* ding.mp3 in Resources */,
 				9C2695E816D27CBC0019199F /* particle.png in Resources */,
 				9C2695F816D295520019199F /* wrong.m4a in Resources */,
-				178120CF21ED172E00A03A24 /* Board2048LaunchScreenPortrait.jpg in Resources */,
 				1749E82F21B863F5008AC9A5 /* Board2048.jpg in Resources */,
 				9C0D03BE16D2D30D00D3D45C /* win.mp3 in Resources */,
-				178120DB21ED196500A03A24 /* iPhoneXsMax.jpg in Resources */,
 				172DD9F9213880210097349C /* Notes in Resources */,
 				9C0D03C716D2D6C100D3D45C /* Comic_Andy.ttf in Resources */,
-				178120CE21ED172E00A03A24 /* Board1024LaunchScreenPortrait.jpg in Resources */,
 				17B8306F215D650D00532E19 /* CodifyList.plist in Resources */,
 				9CA374CA16D5825500B075C1 /* credits.txt in Resources */,
 			);

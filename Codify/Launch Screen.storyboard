@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="Board1024LaunchScreenLandscape.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ckd-s9-fSf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="Board2048LaunchScreenPortrait.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ckd-s9-fSf">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                             </imageView>
                         </subviews>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Board1024LaunchScreenLandscape.jpg" width="1024" height="768"/>
+        <image name="Board2048LaunchScreenPortrait.jpg" width="1536" height="2048"/>
     </resources>
 </document>
