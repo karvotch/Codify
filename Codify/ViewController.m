@@ -45,6 +45,7 @@
 	
 		// Inputting banner ad unit ID so ads may be displayed in-app.
 	self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+//	self.bannerView.adUnitID = @"ca-app-pub-6213676071052874/9905392602";
 	self.bannerView.rootViewController = self;
 //	[self.bannerView loadRequest:[GADRequest request]];
 	self.startMenuController.gameController.bannerView = self.bannerView;
@@ -53,6 +54,7 @@
 		// Inputting ad unit ID for interstitial ads.
 	self.interstitial = [[GADInterstitial alloc]
 		initWithAdUnitID:@"ca-app-pub-3940256099942544/4411468910"];
+//		initWithAdUnitID:@"ca-app-pub-6213676071052874/7846205476"];
 	self.interstitial.delegate = self.startMenuController.gameController;
 		// or this
 	GADRequest *request = [GADRequest request];
