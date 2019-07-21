@@ -68,13 +68,13 @@
 	self.startMenuController.gameController.gameView = gameLayer;
 	
 	NSString *deviceString = [self deviceName];
-	NSString* deviceModel = [deviceString substringWithRange:NSMakeRange(0, 4)];
+	NSString* deviceType = [deviceString substringWithRange:NSMakeRange(0, 4)];
 	uint8_t device = 0;
-	if([deviceString  isEqual: @"iPhome10,3"] || [deviceString  isEqual: @"iPhome10,6"] || [deviceString  isEqual: @"iPhome11,2"] || [deviceString  isEqual: @"iPhome11,4"] || [deviceString  isEqual: @"iPhome11,6"] || [deviceString  isEqual: @"iPhome11,8"])
+	if([deviceString  isEqual: @"iPhone10,3"] || [deviceString  isEqual: @"iPhone10,6"] || [deviceString  isEqual: @"iPhone11,2"] || [deviceString  isEqual: @"iPhone11,4"] || [deviceString  isEqual: @"iPhone11,6"] || [deviceString  isEqual: @"iPhone11,8"])
 	{
 		device = 1;
 	}
-	else if([deviceModel  isEqual: @"iPad"])
+	else if([deviceType  isEqual: @"iPad"])
 	{
 		device = 1 << 1;
 	}
