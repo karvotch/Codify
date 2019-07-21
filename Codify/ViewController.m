@@ -31,6 +31,7 @@
 {
     [super viewDidLoad];
 	
+		// We get the orientation of the device as soon as the app is opened.
 //	self.ignoreAppSupportedOrientations = true;
 //	self.ignoreAppSupportedOrientations
 	self.orientation = [UIApplication sharedApplication].statusBarOrientation;
@@ -39,14 +40,17 @@
 	self.bannerView = [[GADBannerView alloc]
 					   initWithAdSize:kGADAdSizeBanner];
 	
+		// Passing self.bannerView as an argument to a function so it can be added to the app view.
 	[self addBannerViewToView:self.bannerView];
 	
+		// Inputting banner ad unit ID so ads may be displayed in-app.
 	self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
 	self.bannerView.rootViewController = self;
 //	[self.bannerView loadRequest:[GADRequest request]];
 	self.startMenuController.gameController.bannerView = self.bannerView;
 	self.bannerView = nil;
 	
+		// Inputting ad unit ID for interstitial ads.
 	self.interstitial = [[GADInterstitial alloc]
 		initWithAdUnitID:@"ca-app-pub-3940256099942544/4411468910"];
 	self.interstitial.delegate = self.startMenuController.gameController;
@@ -59,6 +63,9 @@
 	self.startMenuController.gameController.viewController = self;
 	self.interstitial = nil;
 	
+		// Creating a view when there is no more levels.
+			// Made a second view so it can be switched to it quickly 
+			// instead of trying to render the screen once the last level is over.
 	UIView* noMoreLevelsView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
 	[self.view addSubview: noMoreLevelsView];
 	self.startMenuController.gameController.noMoreLevelsView = noMoreLevelsView;
@@ -83,8 +90,10 @@
 	[hudView setHidden:YES];
 	[self.view addSubview:hudView];
 	
+		// Adding HUDView class object to Game Controller class.
 	self.startMenuController.gameController.hud = hudView;
 	
+		// Adding a PlayMenu class object to Start Menu Controller class.
 	PlayMenuView* playMenuView = [PlayMenuView viewWithRect:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
 	[self.view addSubview: playMenuView];
 	self.startMenuController.playMenuView = playMenuView;
@@ -94,7 +103,7 @@
 	self.startMenuController.startMenuView = startMenuView;
 }
 
-
+	// Function to add Banner View to app View.
 - (void)addBannerViewToView:(UIView *)bannerView {
 	bannerView.translatesAutoresizingMaskIntoConstraints = NO;
 	[self.view addSubview:bannerView];
@@ -172,7 +181,7 @@
 	return self;
 }
 
-
+	// Gets Iphone or Ipad model and returns it.
 -(NSString*)deviceName
 {
 	struct utsname systemInfo;
