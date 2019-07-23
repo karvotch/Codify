@@ -152,7 +152,7 @@
 	[self addSubview: self.gamePoints];
 	
 		//load the button image
-	UIImage* image = [UIImage imageNamed:@"btn"];
+	UIImage* image = [UIImage imageNamed:@"btnTEMP5"];
 	
 		//the help button
 	self.btnHelp = [UIButton buttonWithType:UIButtonTypeCustom];
