@@ -12,6 +12,7 @@
 		172DD9F7213729D80097349C /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172DD9F6213729D80097349C /* NetworkController.m */; };
 		172DD9F9213880210097349C /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 172DD9F8213880210097349C /* Notes */; };
 		173184ED2174FDEF009CA3AC /* The_Godfather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 173184EC2174FDEF009CA3AC /* The_Godfather.ttf */; };
+		173348FD22E697010018DF6E /* btnTEMP5.png in Resources */ = {isa = PBXBuildFile; fileRef = 173348FC22E697000018DF6E /* btnTEMP5.png */; };
 		1749E82F21B863F5008AC9A5 /* Board2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1749E82D21B863F5008AC9A5 /* Board2048.jpg */; };
 		175B311D21307ED600156400 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175B311C21307ED600156400 /* AudioController.m */; };
 		175B31202134664100156400 /* ExplodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175B311F2134664100156400 /* ExplodeView.m */; };
@@ -74,6 +75,7 @@
 		172DD9F6213729D80097349C /* NetworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		172DD9F8213880210097349C /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 		173184EC2174FDEF009CA3AC /* The_Godfather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = The_Godfather.ttf; sourceTree = "<group>"; };
+		173348FC22E697000018DF6E /* btnTEMP5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTEMP5.png; sourceTree = "<group>"; };
 		1749E82D21B863F5008AC9A5 /* Board2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Board2048.jpg; sourceTree = "<group>"; };
 		175B311B21307ED600156400 /* AudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		175B311C21307ED600156400 /* AudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		9C2695D216D2708E0019199F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				173348FC22E697000018DF6E /* btnTEMP5.png */,
 				9CCA410B16CFDD8100B16E42 /* tile.png */,
 				9CCA410C16CFDD8100B16E42 /* tile@2x.png */,
 				9CCA40FE16CFD9F500B16E42 /* btn.png */,
@@ -455,6 +458,7 @@
 			files = (
 				17FF9D4221BCCE640064836A /* MainStoryboard.storyboard in Resources */,
 				9CCA40AB16CFD85A00B16E42 /* InfoPlist.strings in Resources */,
+				173348FD22E697010018DF6E /* btnTEMP5.png in Resources */,
 				173184ED2174FDEF009CA3AC /* The_Godfather.ttf in Resources */,
 				9CCA40B316CFD85A00B16E42 /* Default.png in Resources */,
 				9CCA40B516CFD85A00B16E42 /* Default@2x.png in Resources */,

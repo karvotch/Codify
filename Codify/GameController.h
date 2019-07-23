@@ -19,7 +19,7 @@ typedef void (^CallbackBlock)(void);
 
 @class Match;
 
-@interface GameController : NSObject <TileDragDelegateProtocol, NetworkControllerDelegate, GADInterstitialDelegate>
+@interface GameController : NSObject <TileDragDelegateProtocol, NetworkControllerDelegate, GADInterstitialDelegate, GADBannerViewDelegate>
 
 	//The view to add game elements to.
 @property (weak, nonatomic) UIView* gameView;

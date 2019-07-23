@@ -49,6 +49,7 @@
 	self.bannerView.rootViewController = self;
 //	[self.bannerView loadRequest:[GADRequest request]];
 	self.startMenuController.gameController.bannerView = self.bannerView;
+	self.bannerView.delegate = self.startMenuController.gameController;
 	self.bannerView = nil;
 	
 		// Inputting ad unit ID for interstitial ads.

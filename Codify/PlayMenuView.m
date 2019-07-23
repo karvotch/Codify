@@ -18,7 +18,7 @@
 	playMenu.userInteractionEnabled = YES;
 	
 		//load the button image
-	UIImage* image = [UIImage imageNamed:@"btn"];
+	UIImage* image = [UIImage imageNamed:@"btnTEMP5"];
 	
 		//the help button
 	playMenu.btnPlay = [UIButton buttonWithType:UIButtonTypeCustom];
