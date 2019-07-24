@@ -36,7 +36,8 @@
 -(instancetype)initWithLetter:(NSString*)letter andSideLength:(float)sideLength
 {
 		//The tile background.
-	UIImage* img = [UIImage imageNamed:@"tile.png"];
+//	UIImage* img = [UIImage imageNamed:@"tile.png"];
+	UIImage* img = [UIImage imageNamed:@"tileTEMP.png"];
 	
 		//Create a new object
 	self = [super initWithImage:img];
