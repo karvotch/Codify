@@ -6,26 +6,103 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F67A7AE46A4499AD980CC96708B2606E /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Google-Mobile-Ads-SDK";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		8AC1A75D9ACF2CC5E00033C3035C95C5 /* Pods-Codify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690AB2BC09C3C0C72CCA25C4229D7622 /* Pods-Codify-dummy.m */; };
+		070C6A2E6D933BB51C10D43739212CB0 /* Pods-Codify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C163033D11800FE387195DE6779A032F /* Pods-Codify-dummy.m */; };
+		0C1C7B0D22E34C08EA7C52D0D6B5813A /* consentform.html in Resources */ = {isa = PBXBuildFile; fileRef = 32D4AE6A0937643325CCCAD42D373E9F /* consentform.html */; };
+		1D8BF2E2976F760D0FE5BFAE45EF28E3 /* PACView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7C0C90545028F81B91F2527EF6590 /* PACView.m */; };
+		227DF9EE3F596DB32EE05F65C69464D5 /* PersonalizedAdConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B91E6F24396C5B122C704708EBEFFF8 /* PersonalizedAdConsent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2660FFFD56F5FF8629CD02064CED4B6D /* PACPersonalizedAdConsent.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FCA64DE3677F859FD2541DCC64AFA /* PACPersonalizedAdConsent.m */; };
+		2CD57B1CFC730A8263984349D6309EF7 /* PACConsentForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CBE5021445A7317F76500BACD180C /* PACConsentForm.m */; };
+		792CBE5AD57770B6E0598863DAD30FC0 /* PersonalizedAdConsent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FFF83DDA9CFA97FAD7E0F2008C92C5 /* PersonalizedAdConsent-dummy.m */; };
+		7EF464E7F8EC7D4A0647F09B5142A096 /* PACPersonalizedAdConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = A19620DF127EF5FCCAC35AE5FA14A78A /* PACPersonalizedAdConsent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95B0576122FDF72E38C984504615DDCF /* PACError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C256FC581653CBCE4188F77BF87403A /* PACError.m */; };
+		B90F34950C67ED4F18775FED20B15F6C /* PACConsentForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 553A98F235C9DE09B33383632226A0A6 /* PACConsentForm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D364AFD780BC8EB581C99ABFC55C7F7D /* PACView.h in Headers */ = {isa = PBXBuildFile; fileRef = 275CA08860A1C99F23EADBD80EA8E5B4 /* PACView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E496BFA4E462BE475B31020A0E7B3D79 /* PACError.h in Headers */ = {isa = PBXBuildFile; fileRef = D5393CDD90CD3A51A23437505D85D9AE /* PACError.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		32EC2F831C4BABA0E76C13E350540FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		493A829B22F0AE9408B872D831532826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48E581B3C08BB7E11E81C6BBA4E1A00;
+			remoteInfo = PersonalizedAdConsent;
+		};
+		78A3ABB3A562B02728A7F5D42E88E9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5512C452E9FA6279093D3C4B894CB3;
+			remoteInfo = "PersonalizedAdConsent-PersonalizedAdConsent";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		00284ADD8CE5D01889CFE310D6175052 /* Pods-Codify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Codify.release.xcconfig"; sourceTree = "<group>"; };
-		34B3EF078E22922CA6B3A3242417BB13 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
-		50B2190D4C996D73991F21F42C33947A /* Pods-Codify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Codify-acknowledgements.markdown"; sourceTree = "<group>"; };
-		690AB2BC09C3C0C72CCA25C4229D7622 /* Pods-Codify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Codify-dummy.m"; sourceTree = "<group>"; };
-		6AE44BB030BA153691EFA983DA383CE1 /* Pods-Codify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Codify-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AD4F53C97881A696B475C4AA920F6FE /* libPods-Codify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Codify.a"; path = "libPods-Codify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89FD48267876A60C53B61C3D98953AB3 /* Pods-Codify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Codify-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E929E7C43365FD21388212A99EBBE68 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		D0647A0835F378F9639E7216ADC8CC2E /* Pods-Codify-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Codify-frameworks.sh"; sourceTree = "<group>"; };
-		FD6384BFC47F0D1A94B906C4CB8DE0CE /* Pods-Codify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Codify.debug.xcconfig"; sourceTree = "<group>"; };
+		1AA7C0C90545028F81B91F2527EF6590 /* PACView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PACView.m; path = PersonalizedAdConsent/PersonalizedAdConsent/PACView.m; sourceTree = "<group>"; };
+		209323E0E68BDF725C861EF57BAD6AA4 /* ResourceBundle-PersonalizedAdConsent-PersonalizedAdConsent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PersonalizedAdConsent-PersonalizedAdConsent-Info.plist"; sourceTree = "<group>"; };
+		226FCA64DE3677F859FD2541DCC64AFA /* PACPersonalizedAdConsent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PACPersonalizedAdConsent.m; path = PersonalizedAdConsent/PersonalizedAdConsent/PACPersonalizedAdConsent.m; sourceTree = "<group>"; };
+		275CA08860A1C99F23EADBD80EA8E5B4 /* PACView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PACView.h; path = PersonalizedAdConsent/PersonalizedAdConsent/PACView.h; sourceTree = "<group>"; };
+		2B91E6F24396C5B122C704708EBEFFF8 /* PersonalizedAdConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersonalizedAdConsent.h; path = PersonalizedAdConsent/PersonalizedAdConsent/PersonalizedAdConsent.h; sourceTree = "<group>"; };
+		2D43901B41631C89C17CE3FCD42FD06E /* libPods-Codify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Codify.a"; path = "libPods-Codify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D4AE6A0937643325CCCAD42D373E9F /* consentform.html */ = {isa = PBXFileReference; includeInIndex = 1; name = consentform.html; path = PersonalizedAdConsent/PersonalizedAdConsent/PersonalizedAdConsent.bundle/consentform.html; sourceTree = "<group>"; };
+		3C256FC581653CBCE4188F77BF87403A /* PACError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PACError.m; path = PersonalizedAdConsent/PersonalizedAdConsent/PACError.m; sourceTree = "<group>"; };
+		553A98F235C9DE09B33383632226A0A6 /* PACConsentForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PACConsentForm.h; path = PersonalizedAdConsent/PersonalizedAdConsent/PACConsentForm.h; sourceTree = "<group>"; };
+		651BECD2E7C50DD84CD193E460B4CFFB /* libPersonalizedAdConsent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPersonalizedAdConsent.a; path = libPersonalizedAdConsent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonalizedAdConsent.xcconfig; sourceTree = "<group>"; };
+		6E9CEE2B4E20867F4DBC3846CEBD53C9 /* Pods-Codify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Codify.release.xcconfig"; sourceTree = "<group>"; };
+		84934560C89FF56C6D74DA11E5DE63E6 /* Pods-Codify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Codify-resources.sh"; sourceTree = "<group>"; };
+		8DD33FC845A6750DD71F6AC44CEABBAB /* Google-Mobile-Ads-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.xcconfig"; sourceTree = "<group>"; };
+		9C9CBE5021445A7317F76500BACD180C /* PACConsentForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PACConsentForm.m; path = PersonalizedAdConsent/PersonalizedAdConsent/PACConsentForm.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E89737ABC97594AF777475F6D45E68D /* Pods-Codify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Codify-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0FFF83DDA9CFA97FAD7E0F2008C92C5 /* PersonalizedAdConsent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PersonalizedAdConsent-dummy.m"; sourceTree = "<group>"; };
+		A19620DF127EF5FCCAC35AE5FA14A78A /* PACPersonalizedAdConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PACPersonalizedAdConsent.h; path = PersonalizedAdConsent/PersonalizedAdConsent/PACPersonalizedAdConsent.h; sourceTree = "<group>"; };
+		A517F57015F226CAEB2CE451C8B3CB63 /* Pods-Codify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Codify.debug.xcconfig"; sourceTree = "<group>"; };
+		B008152FF9FED3550403865E8A989AD0 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
+		B197831F1C6D626D476B8FF64EE0BB2A /* Pods-Codify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Codify-acknowledgements.plist"; sourceTree = "<group>"; };
+		C163033D11800FE387195DE6779A032F /* Pods-Codify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Codify-dummy.m"; sourceTree = "<group>"; };
+		CA4DA20837285CE96E667CB99E899051 /* PersonalizedAdConsent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PersonalizedAdConsent-prefix.pch"; sourceTree = "<group>"; };
+		D4AF37FE244A608FEE13075449465C59 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D5393CDD90CD3A51A23437505D85D9AE /* PACError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PACError.h; path = PersonalizedAdConsent/PersonalizedAdConsent/PACError.h; sourceTree = "<group>"; };
+		DB52E15AD4C3B8F1103D2FA7E7180EDB /* PersonalizedAdConsent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PersonalizedAdConsent.bundle; path = "PersonalizedAdConsent-PersonalizedAdConsent.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A852F1AEAC085A2AD315A40F8987620 /* Frameworks */ = {
+		B4456B7AB1A37E1AD8008B8329F1C352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58B0340CE0ADFF5BCE5F03C4B320647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FADB798446A73E97ACAA08CA1F8A08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,85 +112,148 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		13DBD52275F0394897F410F7A2851D02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4AF37FE244A608FEE13075449465C59 /* GoogleMobileAds.framework */,
+				B008152FF9FED3550403865E8A989AD0 /* libGoogleMobileAds.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		1638F510786593C11530958D7F22562F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				820FBBDA65C5B1A6A4C379A893C27235 /* Pods */,
-				918A047CB2C6637F4BFE4ED76EC6A627 /* Products */,
-				F07BB3ED1A98379072E589952ACF8DA5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		820FBBDA65C5B1A6A4C379A893C27235 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B2D755A60549F10C3C21F9AFC87AA432 /* Google-Mobile-Ads-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		918A047CB2C6637F4BFE4ED76EC6A627 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7AD4F53C97881A696B475C4AA920F6FE /* libPods-Codify.a */,
+				651BECD2E7C50DD84CD193E460B4CFFB /* libPersonalizedAdConsent.a */,
+				2D43901B41631C89C17CE3FCD42FD06E /* libPods-Codify.a */,
+				DB52E15AD4C3B8F1103D2FA7E7180EDB /* PersonalizedAdConsent.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2E391A71F3890B40C865871A9239B43 /* Pods-Codify */ = {
+		2296CBE689BC166CB6392A2F96D1F5F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				50B2190D4C996D73991F21F42C33947A /* Pods-Codify-acknowledgements.markdown */,
-				6AE44BB030BA153691EFA983DA383CE1 /* Pods-Codify-acknowledgements.plist */,
-				690AB2BC09C3C0C72CCA25C4229D7622 /* Pods-Codify-dummy.m */,
-				D0647A0835F378F9639E7216ADC8CC2E /* Pods-Codify-frameworks.sh */,
-				89FD48267876A60C53B61C3D98953AB3 /* Pods-Codify-resources.sh */,
-				FD6384BFC47F0D1A94B906C4CB8DE0CE /* Pods-Codify.debug.xcconfig */,
-				00284ADD8CE5D01889CFE310D6175052 /* Pods-Codify.release.xcconfig */,
+				66E74BF19145DF79CB037CE53698AFF2 /* Google-Mobile-Ads-SDK */,
+				506C6ECC40476A3DC9971813330CD2A4 /* PersonalizedAdConsent */,
 			);
-			name = "Pods-Codify";
-			path = "Target Support Files/Pods-Codify";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		B2D755A60549F10C3C21F9AFC87AA432 /* Google-Mobile-Ads-SDK */ = {
+		3757822747EFB8EDDD24069553BF8C4A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E729DC941541568B32695DC1C327B163 /* Frameworks */,
+				CC18C91FC158BC21B2D8EFC8C5ECAA96 /* Pods-Codify */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		506C6ECC40476A3DC9971813330CD2A4 /* PersonalizedAdConsent */ = {
+			isa = PBXGroup;
+			children = (
+				553A98F235C9DE09B33383632226A0A6 /* PACConsentForm.h */,
+				9C9CBE5021445A7317F76500BACD180C /* PACConsentForm.m */,
+				D5393CDD90CD3A51A23437505D85D9AE /* PACError.h */,
+				3C256FC581653CBCE4188F77BF87403A /* PACError.m */,
+				A19620DF127EF5FCCAC35AE5FA14A78A /* PACPersonalizedAdConsent.h */,
+				226FCA64DE3677F859FD2541DCC64AFA /* PACPersonalizedAdConsent.m */,
+				275CA08860A1C99F23EADBD80EA8E5B4 /* PACView.h */,
+				1AA7C0C90545028F81B91F2527EF6590 /* PACView.m */,
+				2B91E6F24396C5B122C704708EBEFFF8 /* PersonalizedAdConsent.h */,
+				75FA37D534CCD43E4DB9CD7967CC8621 /* Resources */,
+				A0E5CB5E93AD4FD8145C228B6CA0DDD8 /* Support Files */,
+			);
+			name = PersonalizedAdConsent;
+			path = PersonalizedAdConsent;
+			sourceTree = "<group>";
+		};
+		66E74BF19145DF79CB037CE53698AFF2 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				13DBD52275F0394897F410F7A2851D02 /* Frameworks */,
+				D2AB575363D5EBBC0E875454EEEEE18C /* Support Files */,
 			);
 			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
-		E729DC941541568B32695DC1C327B163 /* Frameworks */ = {
+		75FA37D534CCD43E4DB9CD7967CC8621 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9E929E7C43365FD21388212A99EBBE68 /* GoogleMobileAds.framework */,
-				34B3EF078E22922CA6B3A3242417BB13 /* libGoogleMobileAds.a */,
+				32D4AE6A0937643325CCCAD42D373E9F /* consentform.html */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		F07BB3ED1A98379072E589952ACF8DA5 /* Targets Support Files */ = {
+		A0E5CB5E93AD4FD8145C228B6CA0DDD8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2E391A71F3890B40C865871A9239B43 /* Pods-Codify */,
+				689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */,
+				A0FFF83DDA9CFA97FAD7E0F2008C92C5 /* PersonalizedAdConsent-dummy.m */,
+				CA4DA20837285CE96E667CB99E899051 /* PersonalizedAdConsent-prefix.pch */,
+				209323E0E68BDF725C861EF57BAD6AA4 /* ResourceBundle-PersonalizedAdConsent-PersonalizedAdConsent-Info.plist */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/PersonalizedAdConsent";
+			sourceTree = "<group>";
+		};
+		CC18C91FC158BC21B2D8EFC8C5ECAA96 /* Pods-Codify */ = {
+			isa = PBXGroup;
+			children = (
+				9E89737ABC97594AF777475F6D45E68D /* Pods-Codify-acknowledgements.markdown */,
+				B197831F1C6D626D476B8FF64EE0BB2A /* Pods-Codify-acknowledgements.plist */,
+				C163033D11800FE387195DE6779A032F /* Pods-Codify-dummy.m */,
+				84934560C89FF56C6D74DA11E5DE63E6 /* Pods-Codify-resources.sh */,
+				A517F57015F226CAEB2CE451C8B3CB63 /* Pods-Codify.debug.xcconfig */,
+				6E9CEE2B4E20867F4DBC3846CEBD53C9 /* Pods-Codify.release.xcconfig */,
+			);
+			name = "Pods-Codify";
+			path = "Target Support Files/Pods-Codify";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2296CBE689BC166CB6392A2F96D1F5F2 /* Pods */,
+				1638F510786593C11530958D7F22562F /* Products */,
+				3757822747EFB8EDDD24069553BF8C4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AB575363D5EBBC0E875454EEEEE18C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DD33FC845A6750DD71F6AC44CEABBAB /* Google-Mobile-Ads-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3410E7CB2FDC81D7DDDBEFF29B280B59 /* Headers */ = {
+		5E0891BD6CE135A7EE94B93E5480B842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90F34950C67ED4F18775FED20B15F6C /* PACConsentForm.h in Headers */,
+				E496BFA4E462BE475B31020A0E7B3D79 /* PACError.h in Headers */,
+				7EF464E7F8EC7D4A0647F09B5142A096 /* PACPersonalizedAdConsent.h in Headers */,
+				D364AFD780BC8EB581C99ABFC55C7F7D /* PACView.h in Headers */,
+				227DF9EE3F596DB32EE05F65C69464D5 /* PersonalizedAdConsent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE72BB24379DF13812C93CB2BE4A8CE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,83 +263,206 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		74092C1F76323A59F908ADB3F8541ECF /* Pods-Codify */ = {
+		87B93A417BC91EAD44D2BCBDE644816A /* Pods-Codify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C70A93DB12C1FD5EACA82E5C72CB766 /* Build configuration list for PBXNativeTarget "Pods-Codify" */;
+			buildConfigurationList = 1F2A4E90431463BD36A9E8B1CF7A6BB1 /* Build configuration list for PBXNativeTarget "Pods-Codify" */;
 			buildPhases = (
-				3410E7CB2FDC81D7DDDBEFF29B280B59 /* Headers */,
-				46978BA0C95B4AE636D556509DBB7389 /* Sources */,
-				7A852F1AEAC085A2AD315A40F8987620 /* Frameworks */,
+				AE72BB24379DF13812C93CB2BE4A8CE0 /* Headers */,
+				1CECC622CBD7E82F82B8BA14CBB30FB7 /* Sources */,
+				E2FADB798446A73E97ACAA08CA1F8A08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56B74314DF1CAAA1537D7EB6ACA6AE9 /* PBXTargetDependency */,
+				EEE0A76B5C8202196050AA58F198D442 /* PBXTargetDependency */,
+			);
+			name = "Pods-Codify";
+			productName = "Pods-Codify";
+			productReference = 2D43901B41631C89C17CE3FCD42FD06E /* libPods-Codify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E5512C452E9FA6279093D3C4B894CB3 /* PersonalizedAdConsent-PersonalizedAdConsent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0DC44FA0A7A8B7CBA04637B595D1E5 /* Build configuration list for PBXNativeTarget "PersonalizedAdConsent-PersonalizedAdConsent" */;
+			buildPhases = (
+				36634C44F2CC74D3272B86E20C10C66E /* Sources */,
+				D58B0340CE0ADFF5BCE5F03C4B320647 /* Frameworks */,
+				C375D12F545CFCB04136EE9DC8820A45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Codify";
-			productName = "Pods-Codify";
-			productReference = 7AD4F53C97881A696B475C4AA920F6FE /* libPods-Codify.a */;
+			name = "PersonalizedAdConsent-PersonalizedAdConsent";
+			productName = "PersonalizedAdConsent-PersonalizedAdConsent";
+			productReference = DB52E15AD4C3B8F1103D2FA7E7180EDB /* PersonalizedAdConsent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D48E581B3C08BB7E11E81C6BBA4E1A00 /* PersonalizedAdConsent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E69B640DE23B51B4C07B86AAF74126C7 /* Build configuration list for PBXNativeTarget "PersonalizedAdConsent" */;
+			buildPhases = (
+				5E0891BD6CE135A7EE94B93E5480B842 /* Headers */,
+				142EDA1F025FFE6CF33A465C9BA5613D /* Sources */,
+				B4456B7AB1A37E1AD8008B8329F1C352 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21D768FB785555473979C77B73F5D09 /* PBXTargetDependency */,
+			);
+			name = PersonalizedAdConsent;
+			productName = PersonalizedAdConsent;
+			productReference = 651BECD2E7C50DD84CD193E460B4CFFB /* libPersonalizedAdConsent.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 918A047CB2C6637F4BFE4ED76EC6A627 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1638F510786593C11530958D7F22562F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74092C1F76323A59F908ADB3F8541ECF /* Pods-Codify */,
+				FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */,
+				D48E581B3C08BB7E11E81C6BBA4E1A00 /* PersonalizedAdConsent */,
+				9E5512C452E9FA6279093D3C4B894CB3 /* PersonalizedAdConsent-PersonalizedAdConsent */,
+				87B93A417BC91EAD44D2BCBDE644816A /* Pods-Codify */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C375D12F545CFCB04136EE9DC8820A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C7B0D22E34C08EA7C52D0D6B5813A /* consentform.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		46978BA0C95B4AE636D556509DBB7389 /* Sources */ = {
+		142EDA1F025FFE6CF33A465C9BA5613D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC1A75D9ACF2CC5E00033C3035C95C5 /* Pods-Codify-dummy.m in Sources */,
+				2CD57B1CFC730A8263984349D6309EF7 /* PACConsentForm.m in Sources */,
+				95B0576122FDF72E38C984504615DDCF /* PACError.m in Sources */,
+				2660FFFD56F5FF8629CD02064CED4B6D /* PACPersonalizedAdConsent.m in Sources */,
+				1D8BF2E2976F760D0FE5BFAE45EF28E3 /* PACView.m in Sources */,
+				792CBE5AD57770B6E0598863DAD30FC0 /* PersonalizedAdConsent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CECC622CBD7E82F82B8BA14CBB30FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070C6A2E6D933BB51C10D43739212CB0 /* Pods-Codify-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36634C44F2CC74D3272B86E20C10C66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C21D768FB785555473979C77B73F5D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PersonalizedAdConsent-PersonalizedAdConsent";
+			target = 9E5512C452E9FA6279093D3C4B894CB3 /* PersonalizedAdConsent-PersonalizedAdConsent */;
+			targetProxy = 78A3ABB3A562B02728A7F5D42E88E9CE /* PBXContainerItemProxy */;
+		};
+		C56B74314DF1CAAA1537D7EB6ACA6AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 32EC2F831C4BABA0E76C13E350540FFC /* PBXContainerItemProxy */;
+		};
+		EEE0A76B5C8202196050AA58F198D442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PersonalizedAdConsent;
+			target = D48E581B3C08BB7E11E81C6BBA4E1A00 /* PersonalizedAdConsent */;
+			targetProxy = 493A829B22F0AE9408B872D831532826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		5BBD60DE59FB6B1937DE259BA8EDF5CE /* Debug */ = {
+		299935F7B7F0D3E1C03CA4656631A204 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6384BFC47F0D1A94B906C4CB8DE0CE /* Pods-Codify.debug.xcconfig */;
+			baseConfigurationReference = 8DD33FC845A6750DD71F6AC44CEABBAB /* Google-Mobile-Ads-SDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC59951393F009317356859B2F382AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/PersonalizedAdConsent/PersonalizedAdConsent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PersonalizedAdConsent;
+				PRODUCT_NAME = PersonalizedAdConsent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		4B514494CC1A0BC35C8ABDA7C677C3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PersonalizedAdConsent";
+				INFOPLIST_FILE = "Target Support Files/PersonalizedAdConsent/ResourceBundle-PersonalizedAdConsent-PersonalizedAdConsent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PersonalizedAdConsent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,8 +494,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -256,12 +517,55 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		5AFC747EB6599B2847DCAE043FD0A291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A517F57015F226CAEB2CE451C8B3CB63 /* Pods-Codify.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EDC5A5E90668B6D7B74D9F9DE8C433A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9CEE2B4E20867F4DBC3846CEBD53C9 /* Pods-Codify.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,8 +597,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -322,55 +624,113 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E711BF1DE163B85625E22D6FA3AF5269 /* Release */ = {
+		A00271C948CC2C62C9B984088B96DEB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00284ADD8CE5D01889CFE310D6175052 /* Pods-Codify.release.xcconfig */;
+			baseConfigurationReference = 689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PersonalizedAdConsent";
+				INFOPLIST_FILE = "Target Support Files/PersonalizedAdConsent/ResourceBundle-PersonalizedAdConsent-PersonalizedAdConsent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PersonalizedAdConsent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BFE9EE946C624899ED61A5972D37A0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689C89CF8E4511D1DF9CB68FF6029692 /* PersonalizedAdConsent.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/PersonalizedAdConsent/PersonalizedAdConsent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PersonalizedAdConsent;
+				PRODUCT_NAME = PersonalizedAdConsent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		F42B6691B10FDBA0653EE44ADC03B585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD33FC845A6750DD71F6AC44CEABBAB /* Google-Mobile-Ads-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C70A93DB12C1FD5EACA82E5C72CB766 /* Build configuration list for PBXNativeTarget "Pods-Codify" */ = {
+		1F2A4E90431463BD36A9E8B1CF7A6BB1 /* Build configuration list for PBXNativeTarget "Pods-Codify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BBD60DE59FB6B1937DE259BA8EDF5CE /* Debug */,
-				E711BF1DE163B85625E22D6FA3AF5269 /* Release */,
+				5AFC747EB6599B2847DCAE043FD0A291 /* Debug */,
+				7EDC5A5E90668B6D7B74D9F9DE8C433A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3F0DC44FA0A7A8B7CBA04637B595D1E5 /* Build configuration list for PBXNativeTarget "PersonalizedAdConsent-PersonalizedAdConsent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				4B514494CC1A0BC35C8ABDA7C677C3E6 /* Debug */,
+				A00271C948CC2C62C9B984088B96DEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E69B640DE23B51B4C07B86AAF74126C7 /* Build configuration list for PBXNativeTarget "PersonalizedAdConsent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC59951393F009317356859B2F382AD /* Debug */,
+				BFE9EE946C624899ED61A5972D37A0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67A7AE46A4499AD980CC96708B2606E /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42B6691B10FDBA0653EE44ADC03B585 /* Debug */,
+				299935F7B7F0D3E1C03CA4656631A204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
