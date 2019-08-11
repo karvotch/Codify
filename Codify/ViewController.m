@@ -14,6 +14,8 @@
 #import "StartMenuView.h"
 #import "StartMenuController.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
+#import <PersonalizedAdConsent/PersonalizedAdConsent.h>
+#import <AdSupport/AdSupport.h>
 #import <UIKit/UIKit.h>
 #import <sys/utsname.h>
 #import "stdint.h"
@@ -35,6 +37,63 @@
 //	self.ignoreAppSupportedOrientations = true;
 //	self.ignoreAppSupportedOrientations
 	self.orientation = [UIApplication sharedApplication].statusBarOrientation;
+	
+//	NSLog(@"Advertising ID: %@",
+//		  ASIdentifierManager.sharedManager.advertisingIdentifier.UUIDString);
+
+	PACConsentInformation.sharedInstance.debugIdentifiers =
+	@[ @"14C5D407-FFEC-456E-AE51-AF2F047482F1" ];
+	PACConsentInformation.sharedInstance.debugGeography = PACDebugGeographyEEA;
+	
+	[PACConsentInformation.sharedInstance
+	 //	 requestConsentInfoUpdateForPublisherIdentifiers:@[ @"pub-0123456789012345" ]
+	 //	 requestConsentInfoUpdateForPublisherIdentifiers:@[ @"pub-6213676071052874" ]
+	 //	 requestConsentInfoUpdateForPublisherIdentifiers:@[ @"ca-app-pub-6213676071052874~7218561653" ]
+	 requestConsentInfoUpdateForPublisherIdentifiers:@[ @"ca-app-pub-3940256099942544~1458002511" ]
+	 completionHandler:^(NSError *_Nullable error) {
+		 if (error) {
+				 // Consent info update failed.
+			 NSLog(@"Failed consent");
+			 NSLog(@"Error: %@", error);
+		 } else {
+				 // Consent info update succeeded. The shared PACConsentInformation
+				 // instance has been updated.
+			 NSLog(@"Consent info update succeeded.");
+			 
+				 // TODO: Replace with your app's privacy policy url.
+			 NSURL *privacyURL = [NSURL URLWithString:@"https://www.wikipedia.com/privacyurl"];
+			 PACConsentForm *form = [[PACConsentForm alloc] initWithApplicationPrivacyPolicyURL:privacyURL];
+			 form.shouldOfferPersonalizedAds = YES;
+			 form.shouldOfferNonPersonalizedAds = YES;
+			 form.shouldOfferAdFree = NO;
+			 
+			 
+			 [form loadWithCompletionHandler:^(NSError *_Nullable error) {
+				 NSLog(@"Load complete. Error: %@", error);
+				 if (error) {
+						 // Handle error.
+					 NSLog(@"Error: Didn't load");
+				 } else {
+						 // Load successful.
+					 NSLog(@"Success: Did load");
+					 [form presentFromViewController:self
+								   dismissCompletion:^(NSError *_Nullable error, BOOL userPrefersAdFree) {
+									   if (error) {
+											   // Handle error.
+										   NSLog(@"Error: Didn't present");
+									   } else if (userPrefersAdFree) {
+											   // The user prefers to use a paid version of the app.
+									   } else {
+											   // Check the user's consent choice.
+										   NSLog(@"Success: Did present");
+										   PACConsentStatus status =
+										   PACConsentInformation.sharedInstance.consentStatus;
+									   }
+								   }];
+				 }
+			 }];
+		 }
+	 }];
 	
 		// In this case, we instantiate the banner with desired ad size.
 	self.bannerView = [[GADBannerView alloc]

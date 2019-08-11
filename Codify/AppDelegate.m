@@ -36,7 +36,8 @@
 	
 		// Initialize Google Mobile Ads SDK
 		// Sample AdMob app ID: ca-app-pub-3940256099942544~1458002511
-	[GADMobileAds configureWithApplicationID:@"ca-app-pub-6213676071052874~7218561653"];
+//	[GADMobileAds configureWithApplicationID:@"ca-app-pub-6213676071052874~7218561653"];
+	[[GADMobileAds sharedInstance] startWithCompletionHandler:nil];
 		
     return YES;
 }
