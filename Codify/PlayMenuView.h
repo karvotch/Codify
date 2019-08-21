@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIButton* btnPlay;
 @property (strong, nonatomic) UIButton* btnPlay2;
+@property (strong, nonatomic) UIButton* btnPrivacyPolicy;
+@property (strong, nonatomic) UIButton* btnBack;
 
 +(instancetype)viewWithRect:(CGRect)r;
 

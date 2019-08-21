@@ -61,37 +61,37 @@
 			 NSLog(@"Consent info update succeeded.");
 			 
 				 // TODO: Replace with your app's privacy policy url.
-			 NSURL *privacyURL = [NSURL URLWithString:@"https://www.wikipedia.com/privacyurl"];
+			 NSURL *privacyURL = [NSURL URLWithString:@"https://hatergenerator.github.io/"];
 			 PACConsentForm *form = [[PACConsentForm alloc] initWithApplicationPrivacyPolicyURL:privacyURL];
 			 form.shouldOfferPersonalizedAds = YES;
 			 form.shouldOfferNonPersonalizedAds = YES;
 			 form.shouldOfferAdFree = NO;
 			 
 			 
-			 [form loadWithCompletionHandler:^(NSError *_Nullable error) {
-				 NSLog(@"Load complete. Error: %@", error);
-				 if (error) {
-						 // Handle error.
-					 NSLog(@"Error: Didn't load");
-				 } else {
-						 // Load successful.
-					 NSLog(@"Success: Did load");
-					 [form presentFromViewController:self
-								   dismissCompletion:^(NSError *_Nullable error, BOOL userPrefersAdFree) {
-									   if (error) {
-											   // Handle error.
-										   NSLog(@"Error: Didn't present");
-									   } else if (userPrefersAdFree) {
-											   // The user prefers to use a paid version of the app.
-									   } else {
-											   // Check the user's consent choice.
-										   NSLog(@"Success: Did present");
-										   PACConsentStatus status =
-										   PACConsentInformation.sharedInstance.consentStatus;
-									   }
-								   }];
-				 }
-			 }];
+//			 [form loadWithCompletionHandler:^(NSError *_Nullable error) {
+//				 NSLog(@"Load complete. Error: %@", error);
+//				 if (error) {
+//						 // Handle error.
+//					 NSLog(@"Error: Didn't load");
+//				 } else {
+//						 // Load successful.
+//					 NSLog(@"Success: Did load");
+//					 [form presentFromViewController:self
+//								   dismissCompletion:^(NSError *_Nullable error, BOOL userPrefersAdFree) {
+//									   if (error) {
+//											   // Handle error.
+//										   NSLog(@"Error: Didn't present");
+//									   } else if (userPrefersAdFree) {
+//											   // The user prefers to use a paid version of the app.
+//									   } else {
+//											   // Check the user's consent choice.
+//										   NSLog(@"Success: Did present");
+//										   PACConsentStatus status =
+//										   PACConsentInformation.sharedInstance.consentStatus;
+//									   }
+//								   }];
+//				 }
+//			 }];
 		 }
 	 }];
 	

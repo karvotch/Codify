@@ -37,6 +37,13 @@
 	
 	[playMenuView.btnPlay2 addTarget:self action:@selector(actionPlay2) forControlEvents:UIControlEventTouchUpInside];
 	playMenuView.btnPlay2.enabled = NO;
+	
+	[playMenuView.btnPrivacyPolicy addTarget:self action:@selector(actionPrivacyPolicy) forControlEvents:UIControlEventTouchUpInside];
+	playMenuView.btnPrivacyPolicy.enabled = NO;
+	
+	[playMenuView.btnBack addTarget:self action:@selector(actionBack) forControlEvents:UIControlEventTouchUpInside];
+	playMenuView.btnBack.enabled = NO;
+	
 	[self.playMenuView setHidden:YES];
 }
 
@@ -56,6 +63,9 @@
 	[self.startMenuView setHidden:YES];
 	self.playMenuView.btnPlay.enabled = YES;
 	self.playMenuView.btnPlay2.enabled = YES;
+	self.playMenuView.btnBack.enabled = YES;
+	self.playMenuView.btnPrivacyPolicy.enabled = NO;
+	[self.playMenuView.btnPrivacyPolicy setHidden:YES];
 	[self.playMenuView setHidden:NO];
 	
 }
@@ -65,7 +75,14 @@
 {
 	self.startMenuView.btnSettings.enabled = NO;
 	[self.startMenuView setHidden:YES];
-	[self.playMenuView setHidden:YES];
+	[self.playMenuView setHidden:NO];
+	[self.playMenuView.btnPlay setHidden:YES];
+	[self.playMenuView.btnPlay2 setHidden:YES];
+	
+	self.playMenuView.btnPrivacyPolicy.enabled = YES;
+	self.playMenuView.btnBack.enabled = YES;
+	[self.playMenuView.btnPrivacyPolicy setHidden:NO];
+	[self.playMenuView.btnBack setHidden:NO];
 }
 
 
@@ -73,12 +90,14 @@
 {
 	self.playMenuView.btnPlay.enabled = NO;
 	self.playMenuView.btnPlay2.enabled = NO;
+	self.playMenuView.btnBack.enabled = NO;
 	self.gameController.level = [Level levelWithNum:1];
 	[self.playMenuView setHidden:YES];
 		// TODO: change placeholder 1 to 'self.gameController.days'.
 	self.gameController.Random = 0;
 	[self.gameController.hud setHidden:NO];
-	[self.gameController startGame];
+//	[self.gameController startGame];
+	[self.gameController checkLevel:1];
 }
 
 
@@ -86,12 +105,33 @@
 {
 	self.playMenuView.btnPlay.enabled = NO;
 	self.playMenuView.btnPlay2.enabled = NO;
+	self.playMenuView.btnBack.enabled = NO;
 	self.gameController.level = [Level levelWithNum:2];
 	[self.playMenuView setHidden:YES];
 		// TODO: change placeholder 1 to 'self.gameController.days'.
 	self.gameController.Random = 1; 
 	[self.gameController.hud setHidden:NO];
-	[self.gameController startGame];
+//	[self.gameController startGame];
+	[self.gameController checkLevel:1];
+}
+
+
+-(void)actionPrivacyPolicy
+{
+	self.playMenuView.btnPrivacyPolicy.enabled = YES;
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://hatergenerator.github.io/"]];
+	
+}
+
+
+-(void)actionBack
+{
+	self.startMenuView.btnStart.enabled = YES;
+	self.startMenuView.btnSettings.enabled = YES;
+	[self.playMenuView setHidden:YES];
+	[self.playMenuView.btnPlay setHidden:NO];
+	[self.playMenuView.btnPlay2 setHidden:NO];
+	[self.startMenuView setHidden:NO];
 	
 }
 

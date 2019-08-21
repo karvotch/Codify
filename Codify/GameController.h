@@ -41,6 +41,6 @@ typedef void (^CallbackBlock)(void);
 	//Display a new anagram on the screen.
 -(void)dealRandomAnagramForIphone;
 -(void)checkLevel:(NSInteger)days;
--(void)startGame;
+//-(void)startGame;
 
 @end

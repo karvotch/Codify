@@ -30,12 +30,12 @@ int levelsPerDay = 3;
 //int screenWidth;
 //int screenHeight;
 
--(void)startGame
-{
-	[self createAd];
-		// TODO: change placeholder 1 to 'self.gameController.days'.
-	[self checkLevel:1];
-}
+//-(void)startGame
+//{
+//	[self createAd];
+//		// TODO: change placeholder 1 to 'self.gameController.days'.
+//	[self checkLevel:1];
+//}
 
 
 -(void)dealRandomAnagramForIphone
@@ -132,7 +132,7 @@ int levelsPerDay = 3;
 	}
 	
 	[self checkTiles];
-	[self startStopwatch];
+//	[self startStopwatch];
 	self.hud.btnHelp.enabled = YES;
 	
 }
@@ -595,6 +595,7 @@ int levelsPerDay = 3;
 	else 
 	{
 		NSLog(@"Ad wasn't ready");
+		[self startStopwatch];
 	}
 	[self.bannerView loadRequest:[GADRequest request]];
 }
@@ -610,6 +611,7 @@ int levelsPerDay = 3;
 
 - (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial 
 {
+	[self startStopwatch];
 	self.interstitial = nil;
 	self.interstitial = [self createAndLoadInterstitial];
 }

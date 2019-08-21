@@ -39,6 +39,24 @@
 	playMenu.btnPlay2.alpha = 0.8;
 	[playMenu addSubview: playMenu.btnPlay2];
 	
+	playMenu.btnPrivacyPolicy = [UIButton buttonWithType:UIButtonTypeCustom];
+	[playMenu.btnPrivacyPolicy setTitle:@"Privacy Policy" forState:UIControlStateNormal];
+	playMenu.btnPrivacyPolicy.titleLabel.font = [UIFont fontWithName:@"the godfather" size:20.0];
+	[playMenu.btnPrivacyPolicy setBackgroundImage:image forState:UIControlStateNormal];
+	playMenu.btnPrivacyPolicy.frame = CGRectMake(kScreenWidth/2 - 50, kScreenHeight/2 + 20, 90, 45);
+		//	hud.btnHelp.frame = CGRectMake(50, 30, image.size.width, image.size.height);
+	playMenu.btnPrivacyPolicy.alpha = 0.8;
+	[playMenu addSubview: playMenu.btnPrivacyPolicy];
+	
+	playMenu.btnBack = [UIButton buttonWithType:UIButtonTypeCustom];
+	[playMenu.btnBack setTitle:@"Back" forState:UIControlStateNormal];
+	playMenu.btnBack.titleLabel.font = [UIFont fontWithName:@"the godfather" size:20.0];
+	[playMenu.btnBack setBackgroundImage:image forState:UIControlStateNormal];
+	playMenu.btnBack.frame = CGRectMake(kScreenWidth/2 - 50, kScreenHeight/2 + 90, 90, 45);
+		//	hud.btnHelp.frame = CGRectMake(50, 30, image.size.width, image.size.height);
+	playMenu.btnBack.alpha = 0.8;
+	[playMenu addSubview: playMenu.btnBack];
+	
 	return playMenu;
 }
 
